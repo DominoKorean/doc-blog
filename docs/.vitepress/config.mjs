@@ -83,6 +83,12 @@ export default defineConfig({
           }
         }
       }
-    }
-  }
+    },
+    
+    head: [['link', { rel: 'icon', href: '/doc-blog/favicon.ico' }]]
+    } // favicon.ico를 public 디렉토리에 배치하거나 base가 설정된 경우,
+      // /base/favicon.ico를 사용하세요.
+    /* 다음과 같이 랜더링:
+      <link rel="icon" href="/favicon.ico">
+    */
 })
