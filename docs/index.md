@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 문서로 이동
-      link: /markdown-examples
+      link: /start
 
 ---
 
