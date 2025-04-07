@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/doc-blog/',
   title: "도미노한국인 문서 블로그",
   description: "문서를 위한 블로그",
   themeConfig: {
