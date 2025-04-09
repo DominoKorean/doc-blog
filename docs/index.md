@@ -3,14 +3,13 @@
 layout: home
 
 hero:
-  name: "도미노한국인 문서      블로그"
-  text: ""
+  name: "도미노한국인 "
+  text: "문서 블로그"
   tagline: 
   actions:
     - theme: brand
       text: 문서로 이동
       link: /start
-
 ---
 
 

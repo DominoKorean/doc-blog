@@ -3,6 +3,12 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/doc-blog/',
+  head: [['link', { rel: 'icon', href: '/doc-blog/favicon.ico' }]],
+// favicon.ico를 public 디렉토리에 배치하거나 base가 설정된 경우,
+  // /base/favicon.ico를 사용하세요.
+/* 다음과 같이 랜더링:
+  <link rel="icon" href="/favicon.ico">
+*/
   title: "도미노한국인 문서 블로그",
   description: "문서를 위한 블로그",
   themeConfig: {
@@ -18,13 +24,38 @@ export default defineConfig({
       {
         text: '자바 에디션',
         items: [
-          { text: 'json 구문으로 리소스팩/데이터팩 설명 커스텀하기', link: '/java/respackjson/respackjson' }
+          { 
+            text: 'json 구문으로 리소스팩/데이터팩 설명 커스텀하기',
+            link: '/java/respackjson/respackjson'
+          }
         ]
       },
       {
         text: '베드락 에디션',
         items: [
-          { text: '리소스팩 개발자들을 위한 Block.json 설명', link: '/bedrock/blockjson' }
+          { 
+            text: '리소스팩 개발자들을 위한 Block.json 설명', 
+            link: '/bedrock/blockjson',
+           }
+        ]
+      },
+      { 
+        text: '렌더드래곤 셰이더',
+        items: [
+          { 
+            text: '렌더드래곤 셰이더 설치법',
+            link: '/bedrock/rd/rdinstall',
+            items: [
+              { 
+                text: '안드로이드 수동 설치법',
+                link: '/bedrock/rd/androidrd'
+              },
+              { 
+                text: 'iOS 설치법',
+                link: '/bedrock/rd/ios'
+              },
+            ]
+          }
         ]
       }
     ],
@@ -84,11 +115,5 @@ export default defineConfig({
         }
       }
     },
-    
-    head: [['link', { rel: 'icon', href: '/doc-blog/favicon.ico' }]]
-    } // favicon.ico를 public 디렉토리에 배치하거나 base가 설정된 경우,
-      // /base/favicon.ico를 사용하세요.
-    /* 다음과 같이 랜더링:
-      <link rel="icon" href="/favicon.ico">
-    */
+  }
 })
