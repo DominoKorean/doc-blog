@@ -9,6 +9,7 @@ export default defineConfig({
 /* 다음과 같이 랜더링:
   <link rel="icon" href="/favicon.ico">
 */
+  lastUpdated: true,
   sitemap: {
     hostname: 'https://dominokorean.github.io/doc-blog'
   },
