@@ -1,3 +1,7 @@
+::: warning :hammer: 공사중
+현제 수정이 진행중이 문서입니다.
+:::
+
 # json 구문으로 리소스팩/데이터팩 설명 커스텀하기
 
 ::: info
@@ -70,7 +74,7 @@ pack.mcmeta의 설명 부분에서는 명령어에서 씌이는 json 문법의 �
 <!--@include: .\colorpick\hexcolorpicker.md-->
 
 
-hex 코드는 위에 준비된 색선택 도구를 쓰거나 구글에 " [Google 색상 선택 도구](https://g.co/kgs/DSwfdSj) " 등을 검색해 사용할 수 있습니다.
+hex 코드는 위에 준비된 색상 선택 도구를 쓰거나 구글에 " [Google 색상 선택 도구](https://g.co/kgs/DSwfdSj) " 등을 검색해 사용할 수 있습니다.
 
 <details>
   <summary>🎨 기본 색상값 목록</summary>
@@ -120,7 +124,6 @@ hex 코드는 위에 준비된 색선택 도구를 쓰거나 구글에 " [Google
 `[1.0, 1.0, 1.0, 1.0]` 형식으로 rgba를 지정할 수 있습니다.  
 rgba가 255가 아닌 1~0 사잇값을 구하고 싶을 경우 변환기나 전용 색 선택 도구를 쓸 수 있습니다.  
 
-<!--@include: .\colorpick\rgba1to0colorpicker.md-->
 
 참고로 적용하면 원래 색상과는 살짝 다르게 채도가 낮고 어두워질 수 있다.
 

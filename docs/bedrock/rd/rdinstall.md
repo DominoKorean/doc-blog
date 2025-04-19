@@ -10,7 +10,7 @@
 
 1. [MB Loader](https://github.com/DominoKorean/Render-dragon-shader-list/blob/main/language/ko_kr/README.md#mb-loader) 설치
 2. `Load to mbl2`버튼을 누르면 현제 설치돼있는 마인크래프트로 실행됩니다.
-3. Renderdragon Shader List에서 셰이더팩을 다운받아 리소스팩을 불러와 **글로벌 리소스**로 적용합니다.
+3. [Renderdragon Shader List](https://github.com/DominoKorean/Render-dragon-shader-list)에서 셰이더팩을 다운받아 리소스팩을 불러와 **글로벌 리소스**로 적용합니다.
 
 기존의 Patched APP같은 방식을 원한다면 [Draco Injector](https://github.com/mcbegamerxx954/draco-injector)을 사용하세요.  
 
@@ -35,7 +35,7 @@ APK를 직접 수정하여 적용하는 수동 설치를 원한다면 다음 문
 2. `BetterRenderDragon.zip`의 압축을 풀고 `bat`파일을 실행합니다.
    - 릴리즈 버전일 경우 `LaunchMinecraft.bat`을 실행합니다.
    - 베타/프리뷰 버전일 경우 `LaunchMinecraftPreview.bat`을 실행합니다.
-3. Renderdragon Shader List에서 셰이더팩을 다운받아 리소스팩을 불러와 **글로벌 리소스**로 적용합니다.
+3. [Renderdragon Shader List](https://github.com/DominoKorean/Render-dragon-shader-list)에서 셰이더팩을 다운받아 리소스팩을 불러와 **글로벌 리소스**로 적용합니다.
 
 **BetterRenderDragon**을 사용하지 못하는 경우 [**Matject**](https://github.com/faizul726/matject)을 사용할 수 있습니다.
 
