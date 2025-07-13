@@ -65,7 +65,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/DominoKorean/doc-blog' }
+      { icon: 'github', link: 'https://github.com/DominoKorean' }
     ],
 
     search: {
