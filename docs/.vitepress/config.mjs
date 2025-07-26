@@ -68,7 +68,7 @@ export default defineConfig({
         items: [
           {
             text: 'PBR 텍스쳐에 대해 알아보자',
-            link: '/pbr/start_pbr.md'
+            link: '/pbr/start_pbr'
           }
         ]
       }

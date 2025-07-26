@@ -60,7 +60,7 @@ PBR은 물리 기반 렌더링 **P**hysicaly **B**ased **R**endering의 약자�
 * [베드락 포맷(원문)](https://learn.microsoft.com/en-us/minecraft/creator/documents/vibrantvisuals/pbroverview?view=minecraft-bedrock-stable)
 - 자바 포맷
   - [LabPBR 1.3(원문)](https://shaderlabs.org/wiki/LabPBR_Material_Standard)
-  - [OldPBR (SEUSpbr)]()
+  - OldPBR (SEUSpbr)
 
 ---
 
