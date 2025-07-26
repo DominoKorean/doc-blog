@@ -61,6 +61,16 @@ export default defineConfig({
             ]
           }
         ]
+      },
+      {
+        text: '마인크래프트 PBR 텍스쳐 가이드',
+        collapsed: true,
+        items: [
+          {
+            text: 'PBR 텍스쳐에 대해 알아보자',
+            link: '/pbr/start_pbr'
+          }
+        ]
       }
     ],
 

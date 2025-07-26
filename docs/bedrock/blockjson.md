@@ -1,3 +1,5 @@
+# 베드락 리소스팩 개발자들을 위한 block.json 설명글
+
 ::: info
 리소스팩 개발자들을 위한 문서로  
 [마이크로소프트 공식 문서](https://learn.microsoft.com/en-us/minecraft/creator/reference/content/blockreference/?view=minecraft-bedrock-stable)와 [Bedrock Wiki](https://wiki.bedrock.dev/blocks/block-components)에 있는 내용중 리소스팩만으로만 사용 가능한 부분을 종합해 정리한 문서입니다.  
