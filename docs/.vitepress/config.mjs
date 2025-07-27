@@ -40,7 +40,11 @@ export default defineConfig({
           { 
             text: '리소스팩 개발자들을 위한 Block.json 설명', 
             link: '/bedrock/blockjson',
-           }
+          },
+          {
+            text: '1.21.90 이후 최신버전에서 광선추적 키는법',
+            link: '/bedrock/rtx/rtx1.21'
+          }
         ]
       },
       { 
@@ -58,17 +62,30 @@ export default defineConfig({
                 text: 'iOS 설치법',
                 link: '/bedrock/rd/ios'
               },
+              {
+                text: '.material.bin 파일을 수동으로 교체하는법',
+                link: '/bedrock/rd/materialbin/materialbin'
+              }
             ]
           }
         ]
       },
       {
-        text: '마인크래프트 PBR 텍스쳐 가이드',
+        text: '마인크래프트 PBR 텍스처 가이드',
         collapsed: true,
         items: [
           {
-            text: 'PBR 텍스쳐에 대해 알아보자',
+            text: 'PBR 텍스처에 대해 알아보자',
             link: '/pbr/start_pbr'
+          },
+          {
+            text: 'PBR 포맷',
+            items: [
+              {
+                text: 'Oldpbr / SEUS pbr',
+                link: '/pbr/oldpbr/oldpbr'
+              }
+            ]
           }
         ]
       }
