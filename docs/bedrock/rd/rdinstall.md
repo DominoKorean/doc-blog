@@ -84,10 +84,30 @@ mc-w10-version-launcher을 통해 DLL형태의 모드파일을 사용할 수 있
 경로에 dll 모드파일을 넣고 다시 MCLauncher.exe를 키고 마인크래프트를 실행합니다.
 6. [Renderdragon Shader List](https://github.com/DominoKorean/Render-dragon-shader-list/blob/main/language/ko_kr/README.md)에서 셰이더팩을 다운받아 리소스팩을 불러와 **글로벌 리소스**로 적용합니다.
 
-
 <br>
 
 **BetterRenderDragon**을 사용하지 못하는 경우 수동설치를 위해 [**Matject**](https://github.com/faizul726/matject)을 사용할 수 있습니다.
+
+<br>
+
+Matject가 작동하지 않을경우 [IObit Unlocker](https://www.iobit.com/en/iobit-unlocker.php)을 통해 `material.bin`파일을 수동으로 교체해야합니다.  
+`materiall.bin`파일은 리소스팩의 압축을 푼 후
+```
+🖼️ pack_icon.png
+🗒️ manifiest.json
+📁 renderer
+    ↳ 📁 materials
+        ↳  .material.bin
+```
+이 경로에서 찾을 수 있습니다.
+
+바닐라 베드락 마인크래프트의 `.materail.bin`는  
+```
+C:\Program Files\WindowsApps\Microsoft.MinecraftUWP_1.21.9401.0_x64__8wekyb3d8bbwe\data\renderer\materials
+```
+이곳에서 찾을 수 있습니다.
+
+* [.material.bin 수동 설치법](./materialbin/materialbin.md)
 
 <br>
 <br>
