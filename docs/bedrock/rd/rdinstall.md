@@ -94,7 +94,7 @@ Matject가 작동하지 않을경우 [IObit Unlocker](https://www.iobit.com/en/i
 `materiall.bin`파일은 리소스팩의 압축을 푼 후
 ```
 🖼️ pack_icon.png
-🗒️ manifiest.json
+🗒️ manifest.json
 📁 renderer
     ↳ 📁 materials
         ↳  .material.bin
