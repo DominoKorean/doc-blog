@@ -44,6 +44,10 @@ export default defineConfig({
           {
             text: '1.21.90 이후 최신버전에서 광선추적 키는법',
             link: '/bedrock/rtx/rtx1.21'
+          },
+          {
+            text: '베드락 에디션(BE)을 시작하는 플레이어를 위한 안내서',
+            link: '/bedrock/OMS/start_bedrock_omc'
           }
         ]
       },
