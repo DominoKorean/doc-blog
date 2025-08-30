@@ -47,7 +47,7 @@ export default defineConfig({
           },
           {
             text: '베드락 에디션(BE)을 시작하는 플레이어를 위한 안내서',
-            link: '/bedrock/OMS/start_bedrock_omc'
+            link: '/bedrock/OMS/start_bedrock_oms'
           }
         ]
       },
