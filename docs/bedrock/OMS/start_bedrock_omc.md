@@ -64,6 +64,7 @@ https://cafe.naver.com/minecraftgame/1873824)
 ## 모델링 & 애드온 제작 / 개발
 
 - [애드온 제작 공식 문서](https://learn.microsoft.com/ko-kr/minecraft/creator/documents/gettingstarted) Minecraft 제공
+- [애드온 제작 비공식 개발자 문서](https://wiki.bedrock.dev) Bedrock Add-Ons 제공
 - Bridge 강좌
   - [0](https://cafe.naver.com/minecraftgame/1710954) 
   - [1](https://cafe.naver.com/minecraftgame/1711307)
