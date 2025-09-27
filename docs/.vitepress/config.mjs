@@ -24,6 +24,7 @@ export default defineConfig({
 
     outline: [2, 3],
 
+    //사이드바
     sidebar: [
       {
         text: '자바 에디션',
@@ -31,6 +32,10 @@ export default defineConfig({
           { 
             text: 'json 구문으로 리소스팩/데이터팩 설명 커스텀하기',
             link: '/java/respackjson/respackjson'
+          },
+          {
+            text: '셰이더 추천 목록',
+            link: '/java/shader_rec/shader_rec'
           }
         ]
       },
@@ -75,7 +80,7 @@ export default defineConfig({
         ]
       },
       {
-        text: '마인크래프트 PBR 텍스처 가이드',
+        text: '마인크래프트 PBR 텍스처 가이드(WIP)',
         collapsed: true,
         items: [
           {
@@ -95,60 +100,39 @@ export default defineConfig({
       }
     ],
 
+    //소셜링크
     socialLinks: [
       { icon: 'github', link: 'https://github.com/DominoKorean/doc-blog' }
     ],
 
-    search: {
-      provider: 'algolia',
-      options: {
-        appId: '...',
-        apiKey: '...',
-        indexName: '...',
-        locales: {
-          ko: {
-            placeholder: '문서 검색',
-            translations: {
-              button: {
-                buttonText: '검색',
-                buttonAriaLabel: '검색'
-              },
-              modal: {
-                searchBox: {
-                  resetButtonTitle: '검색 지우기',
-                  resetButtonAriaLabel: '검색 지우기',
-                  cancelButtonText: '취소',
-                  cancelButtonAriaLabel: '취소'
-                },
-                startScreen: {
-                  recentSearchesTitle: '검색 기록',
-                  noRecentSearchesText: '최근 검색 없음',
-                  saveRecentSearchButtonTitle: '검색 기록에 저장',
-                  removeRecentSearchButtonTitle: '검색 기록에서 삭제',
-                  favoriteSearchesTitle: '즐겨찾기',
-                  removeFavoriteSearchButtonTitle: '즐겨찾기에서 삭제'
-                },
-                errorScreen: {
-                  titleText: '결과를 가져올 수 없습니다',
-                  helpText: '네트워크 연결을 확인하세요'
-                },
-                footer: {
-                  selectText: '선택',
-                  navigateText: '탐색',
-                  closeText: '닫기',
-                  searchByText: '검색 기준'
-                },
-                noResultsScreen: {
-                  noResultsText: '결과를 찾을 수 없습니다',
-                  suggestedQueryText: '새로운 검색을 시도할 수 있습니다',
-                  reportMissingResultsText: '해당 검색어에 대한 결과가 있어야 합니까?',
-                  reportMissingResultsLinkText: '피드백 보내기 클릭'
-                }
-              }
-            }
-          }
-        }
-      }
+    //번역
+    docFooter: {
+      prev: '이전',
+      next: '다음'
     },
+
+    outline: {
+      label: '목차'
+    },
+
+    lastUpdated: {
+      text: '마지막 업데이트'
+    },
+
+    notFound: {
+      title: '페이지를 찾을 수 없습니다',
+      quote:
+        '방향을 바꾸지 않고 계속 찾다 보면 결국 당신이 가고 있는 곳에 도달할 수도 있습니다.',
+      linkLabel: '홈으로 가기',
+      linkText: '홈으로 돌아가기'
+    },
+
+    langMenuLabel: '언어 변경',
+    returnToTopLabel: '맨 위로 돌아가기',
+    sidebarMenuLabel: '사이드바 메뉴',
+    darkModeSwitchLabel: '다크 모드',
+    lightModeSwitchTitle: '라이트 모드로 변경',
+    darkModeSwitchTitle: '다크 모드로 변경',
+    skipToContentLabel: '본문으로 건너뛰기'
   }
 })

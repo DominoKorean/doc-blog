@@ -1,0 +1,9 @@
+﻿:root {
+  --vp-font-family-base: 'Noto Sans KR', sans-serif;
+}
+
+/* Make markdown bold text appear heavier */
+.vp-doc strong,
+.vp-doc b {
+  font-weight: 600;
+}
