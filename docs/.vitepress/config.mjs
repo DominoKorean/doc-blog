@@ -28,36 +28,59 @@ export default defineConfig({
     sidebar: [
       {
         text: '자바 에디션',
+        collapsed: false,
         items: [
-          { 
-            text: 'json 구문으로 리소스팩/데이터팩 설명 커스텀하기',
-            link: '/java/respackjson/respackjson'
+          {
+            text: '개발',
+            items: [
+              { 
+                text: 'json 구문으로 리소스팩/데이터팩 설명 커스텀하기',
+                link: '/java/respackjson/respackjson'
+              },
+            ]
           },
           {
-            text: '셰이더 추천 목록',
-            link: '/java/shader_rec/shader_rec'
-          }
+            text: '기타 자료',
+            items: [
+              {
+                text: '셰이더 추천 목록',
+                link: '/java/shader_rec/shader_rec'
+              }
+            ]
+          },
         ]
       },
       {
         text: '베드락 에디션',
+        collapsed: false,
         items: [
-          { 
-            text: '리소스팩 개발자들을 위한 Block.json 설명', 
-            link: '/bedrock/blockjson',
+          {
+            text: '개발',
+            items: [
+              { 
+                text: '리소스팩 개발자들을 위한 Block.json 설명', 
+                link: '/bedrock/blockjson',
+              },
+            ]
           },
           {
-            text: '1.21.90 이후 최신버전에서 광선추적 키는법',
-            link: '/bedrock/rtx/rtx1.21'
+            text: '기타 자료',
+            items: [
+               {
+                text: '1.21.90 이후 최신버전에서 광선추적 키는법',
+                link: '/bedrock/rtx/rtx1.21'
+              },
+              {
+                text: '베드락 에디션(BE)을 시작하는 플레이어를 위한 안내서',
+                link: '/bedrock/OMS/start_bedrock_oms'
+              }
+            ]
           },
-          {
-            text: '베드락 에디션(BE)을 시작하는 플레이어를 위한 안내서',
-            link: '/bedrock/OMS/start_bedrock_oms'
-          }
         ]
       },
       { 
         text: '렌더드래곤 셰이더',
+        collapsed: false,
         items: [
           { 
             text: '렌더드래곤 셰이더 설치법',
