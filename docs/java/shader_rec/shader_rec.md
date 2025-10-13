@@ -150,21 +150,7 @@ Complementary는 컨샙 자체가 어느 상황에서나 뛰어난 퀄리티와 
 
 ## Iris Shader? Optifine? 뭐써야됨?
 
-1. Optifine 써도 상관 없음.  
-대신 몇몇 메이져 셰이더는 Iris Shader에서만 지원하는 기능을 쓰고  
-최신 버전의 옵티파인(1.21.8 이상)은 버그가 날 확률이 좀 높음  
-2. **모드랑 같이 쓸꺼면 무조건 Iris Shader**  
-Optifine은 예전부터 다른 모드와 호환성이 안좋기로 유명했음
-3. 패브릭 모드랑 같이 옵티파인의 유리, 줌등 기능을 쓰고싶으면 [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized)모드팩  
-릴리즈 버전(녹색 R) 쓰면 옵티파인 기능 거의 다 쓸 수 있고  
-최적화도 이게 제일 무난함  
-
-<br>
-
-- Optifine = 기능이 많다. 설치하기 편하다. 최신버전에서 버그가 좀 많고 업데이트가 느리다. **다른 모드랑 호환성이 매우 안좋다.**  
-= 1.16 보다 아래인 예전 버전에서 쓰기 좋다.
-- Iris Shader = 최적화가 좋다. 가장 최신 환경인 모드다. 모드 호환성이 좋다. 업데이트가 빠르고 플랫폼을 다양하게 지원한다.  
-= 1.16 이상 최신 버전에서 쓰기 좋다. 
+[버전별 셰이더팩 설치법](/java/what_shader_mod/what_shader_mod)
 
 
 ## 기타 TMI

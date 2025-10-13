@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import footnote from 'markdown-it-footnote'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -15,6 +16,11 @@ export default defineConfig({
   },
   title: "도미노한국인 문서 블로그",
   description: "문서를 위한 블로그",
+  markdown: {
+    config: (md) => {
+      md.use(footnote)
+    }
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -27,35 +33,11 @@ export default defineConfig({
     //사이드바
     sidebar: [
       {
-        text: '자바 에디션',
+        text: '개발',
         collapsed: false,
         items: [
           {
-            text: '개발',
-            items: [
-              { 
-                text: 'json 구문으로 리소스팩/데이터팩 설명 커스텀하기',
-                link: '/java/respackjson/respackjson'
-              },
-            ]
-          },
-          {
-            text: '기타 자료',
-            items: [
-              {
-                text: '셰이더 추천 목록',
-                link: '/java/shader_rec/shader_rec'
-              }
-            ]
-          },
-        ]
-      },
-      {
-        text: '베드락 에디션',
-        collapsed: false,
-        items: [
-          {
-            text: '개발',
+            text: '자바',
             items: [
               { 
                 text: '리소스팩 개발자들을 위한 Block.json 설명', 
@@ -64,7 +46,35 @@ export default defineConfig({
             ]
           },
           {
-            text: '기타 자료',
+            text: '베드락',
+            items: [
+              { 
+                text: 'json 구문으로 리소스팩/데이터팩 설명 커스텀하기',
+                link: '/java/respackjson/respackjson'
+              },
+            ]
+          },
+        ]
+      },
+      {
+        text: '기타 자료',
+        collapsed: false,
+        items: [
+          {
+            text: '자바',
+            items: [
+              {
+                text: '셰이더 추천 목록',
+                link: '/java/shader_rec/shader_rec'
+              },
+              {
+                text: '버전별 셰이더팩 설치법',
+                link: '/java/what_shader_mod/what_shader_mod'
+              }
+            ]
+          },
+          {
+            text: '베드락',
             items: [
                {
                 text: '1.21.90 이후 최신버전에서 광선추적 키는법',
