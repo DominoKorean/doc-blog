@@ -7,3 +7,70 @@
 .vp-doc b {
   font-weight: 600;
 }
+
+.footnote-tooltip {
+  cursor: help;
+}
+
+.footnote-tooltip-layer {
+  position: absolute;
+  left: var(--footnote-tooltip-left, -9999px);
+  top: var(--footnote-tooltip-top, -9999px);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: auto;
+  background-color: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 6px;
+  padding: 0.55rem 0.75rem;
+  font-size: 0.9em;
+  line-height: 1.35;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  width: max-content;
+  max-width: min(40rem, calc(100vw - 3rem));
+  white-space: normal;
+  word-break: keep-all;
+  text-align: left;
+  z-index: 999;
+  transform: translate3d(0, 0.25rem, 0);
+  transition:
+    opacity 0.18s ease,
+    transform 0.18s ease;
+}
+
+.footnote-tooltip-layer[data-active='true'] {
+  opacity: 1;
+  visibility: visible;
+  transform: translate3d(0, 0, 0);
+}
+
+.footnote-tooltip-layer::after {
+  content: '';
+  position: absolute;
+  left: var(--footnote-tooltip-arrow-offset, 50%);
+  transform: translateX(-50%);
+  border-style: solid;
+}
+
+.footnote-tooltip-layer[data-placement='top']::after {
+  bottom: -0.35rem;
+  border-width: 0.45rem 0.45rem 0;
+  border-color: var(--vp-c-bg-soft) transparent transparent;
+}
+
+.footnote-tooltip-layer[data-placement='bottom']::after {
+  top: -0.35rem;
+  border-width: 0 0.45rem 0.45rem;
+  border-color: transparent transparent var(--vp-c-bg-soft);
+}
+
+.footnote-tooltip-layer a {
+  color: var(--vp-c-brand-1);
+  font-weight: 500;
+}
+
+.footnote-tooltip-layer a:hover,
+.footnote-tooltip-layer a:focus-visible {
+  color: var(--vp-c-brand-2);
+}

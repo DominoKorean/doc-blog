@@ -86,6 +86,15 @@ export default defineConfig({
               }
             ]
           },
+          {
+            text: '기타',
+            items: [
+               {
+                text: '팩, 모드, 프로그램 용어 정리',
+                link: 'both/packterms/packterms.md'
+              }
+            ]
+          },
         ]
       },
       { 
