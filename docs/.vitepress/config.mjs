@@ -28,7 +28,6 @@ export default defineConfig({
       { text: '문서로 이동', link: '/start' }
     ],
 
-    outline: [2, 3],
 
     //사이드바
     sidebar: [
@@ -154,7 +153,8 @@ export default defineConfig({
     },
 
     outline: {
-      label: '목차'
+      label: '목차',
+      level: [1, 2]
     },
 
     lastUpdated: {
