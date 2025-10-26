@@ -39,8 +39,8 @@ export default defineConfig({
             text: '자바',
             items: [
               { 
-                text: '리소스팩 개발자들을 위한 Block.json 설명', 
-                link: '/bedrock/blockjson',
+                text: 'json 구문으로 리소스팩/데이터팩 설명 커스텀하기',
+                link: '/java/respackjson/respackjson'
               },
             ]
           },
@@ -48,8 +48,8 @@ export default defineConfig({
             text: '베드락',
             items: [
               { 
-                text: 'json 구문으로 리소스팩/데이터팩 설명 커스텀하기',
-                link: '/java/respackjson/respackjson'
+                text: '리소스팩 개발자들을 위한 Block.json 설명', 
+                link: '/bedrock/blockjson',
               },
             ]
           },

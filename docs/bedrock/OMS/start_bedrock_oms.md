@@ -8,7 +8,7 @@
 :::
 
 ::: info 💡 모바일 운영체제
-갤럭시, 샤오미, 픽셀등등의 대부분의 스마트폰은 `안드로이드`를 사용합니다.  
+갤럭시, 샤오미, 픽셀 등등의 대부분의 스마트폰은 `안드로이드`를 사용합니다.  
 아이폰은 `iOS`를 사용합니다. ( 아이패드도 동일하게 하시면 됩니다. )
 :::
 
@@ -19,19 +19,19 @@
 
 ## 설치시 가장 먼저 해야할것
 
-안드로이드의 경우 앱의 경로가 **"외부"** 로 설정되어 있지 않은경우  
-파일 손상시 데이터 복구가 어려울 수 있습니다.
+안드로이드의 경우 앱의 경로가 **"외부"** 로 설정되어 있지 않은 경우  
+파일 손상 시 데이터 복구가 어려울 수 있습니다.
 
 <video controls="controls" src="/fileLocation.mp4" />
 
 `설정 > 저장 공간 > 파일 저장 위치 `에서  
-저장공간을 애플리케이션에서 "**외부**"로 번경해주시면 됩니다.
+저장공간을 애플리케이션에서 "**외부**"로 번경해 주시면 됩니다.
 
 ## 계정 생성및 문제 해결 
 
 - [기본 구매 정보 및 XBOX 계정 생성](https://cafe.naver.com/minecraftgame/1720744)
 - [XBOX 계정 로그인 및 멀티플레이 불가 오류 해결](https://cafe.naver.com/minecraftgame/1899313)
-- [마인크래프트BE가 실행이 안 될 경우, 맵 및 데이터 백업 및 복구 가이드라인](https://cafe.naver.com/minecraftgame/1894938)
+- [마인크래프트 BE가 실행이 안 될 경우, 맵 및 데이터 백업 및 복구 가이드라인](https://cafe.naver.com/minecraftgame/1894938)
 
 ## 시작하기
 
@@ -54,7 +54,7 @@ https://cafe.naver.com/minecraftgame/1873824)
 
 ## 서버 개발  
 
-- [서버 열기 (기획 밎 준비)](https://cafe.naver.com/minecraftgame/1120808)
+- [서버 열기 (기획 및 준비)](https://cafe.naver.com/minecraftgame/1120808)
 - [PMMP 구동기로 서버열기](https://cafe.naver.com/minecraftgame/1753066)
 - [BDS 구동기로 서버열기](https://cafe.naver.com/minecraftgame/1753085)
 - [BDSX 구동기로 서버열기](https://cafe.naver.com/minecraftgame/1807035)`Outdated`
@@ -75,5 +75,5 @@ https://cafe.naver.com/minecraftgame/1873824)
 
 ## 기타
 
-- [베타 테스트 (베타/프리뷰 버전)참여 방법](https://cafe.naver.com/minecraftgame/1897445)
+- [베타 테스트 (베타/프리뷰 버전) 참여 방법](https://cafe.naver.com/minecraftgame/1897445)
 - [마인크래프트 1.21.90 이상 베드락에서 광선 추적(RTX) 키는법](https://dominokorean.github.io/doc-blog/bedrock/rtx/rtx1.21.html) 도미노한국인 문서 블로그 제공
