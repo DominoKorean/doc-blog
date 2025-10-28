@@ -4,7 +4,7 @@
 
 
 ::: info
-실시간 그림자, 물과 철블록에 반사돼는 주변 사물, 동적 색 조명등을 원한다면 찾으시는 게 렌더드래곤 셰이더가 아닌 **선명한 비주얼**일 것입니다.  
+실시간 그림자, 물과 철블록에 반사되는 주변 사물, 동적 색 조명등을 원한다면 찾으시는 게 렌더드래곤 셰이더가 아닌 **선명한 비주얼**일 것입니다.  
 **선명한 비주얼**은 설정에서 키실 수 있습니다.
 :::
 
@@ -24,7 +24,7 @@
 > 삼성 갤럭시, 샤오미, 구글 픽셀 등 애플의 제품을 제외한 거의 대부분의 폰은 안드로이드를 사용합니다.
 
 1. [MB Loader](https://github.com/DominoKorean/Render-dragon-shader-list/blob/main/language/ko_kr/README.md#mb-loader)를 설치합니다.
-2. `Load to mbl2`버튼을 누르면 현제 설치돼있는 마인크래프트로 실행됩니다.
+2. `Load to mbl2`버튼을 누르면 현제 설치돼 있는 마인크래프트로 실행됩니다.
 3. [Renderdragon Shader List](https://github.com/DominoKorean/Render-dragon-shader-list/blob/main/language/ko_kr/README.md)에서 `안드로이드`태그가 있는 셰이더팩을 다운로드 받아 리소스팩을 불러와 **글로벌 리소스**로 적용합니다.
 
 <br>
@@ -35,7 +35,7 @@ BetterRenderdragon과 같이 .so 파일을 지원하는 모드는 LeviLaunchroid
 1. [LeviLaunchroid](https://github.com/LiteLDev/LeviLaunchroid/releases) apk를 설치합니다.
 2. [렌더드래곤 셰이더 모드 / 유틸리티](https://github.com/DominoKorean/Render-dragon-shader-list/blob/main/language/ko_kr/README.md#%EB%A0%8C%EB%8D%94%EB%93%9C%EB%9E%98%EA%B3%A4-%EC%85%B0%EC%9D%B4%EB%8D%94-%EB%AA%A8%EB%93%9C--%EC%9C%A0%ED%8B%B8%EB%A6%AC%ED%8B%B0)에서 `SO`태그가 있는 모드의 `.so`파일로 된 모드를 다운로드합니다.
 3. LeviLaunchroid를 실행한 후 왼쪽 하단 Mods 패널에서 `+`버튼을 누른 후 `.so`파일로 된 모드 파일을 파일 탐색기에서 선택합니다.
-4. `Launch`버튼을 누르면 현제 설치돼있는 마인크래프트로 모드가 적용되어 실행됩니다.
+4. `Launch`버튼을 누르면 현제 설치돼 있는 마인크래프트로 모드가 적용되어 실행됩니다.
 
 > [!NOTE]
 > 각 모드는 모드끼리 서로 호환이 안될 수 있습니다.
@@ -75,13 +75,13 @@ APK를 직접 수정하여 적용하는 수동 설치를 원한다면 다음 문
 ### DLL 모드 파일 사용
 mc-w10-version-launcher을 통해 DLL 형태의 모드 파일을 사용할 수 있습니다.
 
-1. 최신 버전의 [mc-w10-version-launcher](https://github.com/QYCottage/mc-w10-version-launcher/releases)다운로드합니다.
+1. 최신 버전의 [mc-w10-version-launcher](https://github.com/QYCottage/mc-w10-version-launcher/releases)을 다운로드합니다.
 2. zip압축을 풀고 MCLauncher.exe를 실행합니다.
 3. 원하는 버전을 다운로드합니다.
 4. [렌더드래곤 셰이더 모드 / 유틸리티](https://github.com/DominoKorean/Render-dragon-shader-list/blob/main/language/ko_kr/README.md#%EB%A0%8C%EB%8D%94%EB%93%9C%EB%9E%98%EA%B3%A4-%EC%85%B0%EC%9D%B4%EB%8D%94-%EB%AA%A8%EB%93%9C--%EC%9C%A0%ED%8B%B8%EB%A6%AC%ED%8B%B0)에서 `DLL`태그가 있는 모드의 `.dll`파일로 된 모드를 다운로드합니다.
 5. zip 압축을 푼 폴더에서  
 `imported_versions\Microsoft.MinecraftUWP "버전__패키지 이름".Appx\mods`  
-경로에 dll 모드 파일을 넣고 다시 MCLauncher.exe를 키고 마인크래프트를 실행합니다.
+경로에 dll 모드 파일을 넣고 다시 MCLauncher.exe를 켜고 마인크래프트를 실행합니다.
 6. [Renderdragon Shader List](https://github.com/DominoKorean/Render-dragon-shader-list/blob/main/language/ko_kr/README.md)에서 셰이더팩을 다운받아 리소스팩을 불러와 **글로벌 리소스**로 적용합니다.
 
 <br>
@@ -116,10 +116,10 @@ C:\Program Files\WindowsApps\Microsoft.MinecraftUWP_1.21.9401.0_x64__8wekyb3d8bb
 > 마인크래프트를 재시작하면 대부분 해결됩니다.
 
 > - #### **서버에 들어갔더니 셰이더가 작동하지 않습니다.**  
-> 서버에 적용돼있는 리소스팩으로 인해 셰이더는 서버에서 제대로 작동하지 않을 수 있습니다.
+> 서버에 적용돼 있는 리소스팩으로 인해 셰이더는 서버에서 제대로 작동하지 않을 수 있습니다.
 
 > - #### **맵에 리소스팩을 적용했더니 세이더가 작동하지 않습니다.**  
-> 글로벌 리소스로 활성화해주세요.
+> 글로벌 리소스로 활성화해 주세요.
 
 > - #### **모바일에서 모드 앱을 사용했더니 플레이하던 맵, 리소스팩등의 데이터가 사라졌습니다.**  
 >  데이터가 사라진 것이 아닙니다. MB Loader와 LeviLaunchroid는 기존 마인크래프트와 다른 저장 공간을 사용하기 때문에 기본 마인크래프트를 다시 실행하면 정상적으로 파일이 존재하는것을 볼 수 있습니다.

@@ -67,8 +67,12 @@ export default defineConfig({
                 link: '/java/shader_rec/shader_rec'
               },
               {
-                text: '버전별 셰이더팩 설치법',
+                text: '버전별 셰이더팩 설치 필요 모드',
                 link: '/java/what_shader_mod/what_shader_mod'
+              },
+              {
+                text: '옵티파인 설치법',
+                link: '/java/install_optifine/install_optifine'
               }
             ]
           },
