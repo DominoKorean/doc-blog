@@ -51,7 +51,7 @@ Jarfix를 설치하시면 대부분 해결됩니다.
 https://johann.loefflmann.net/en/software/jarfix/index.html  
 링크에 들어간 후 밑으로 조금만 내려서  
 **Requirements** 아래 **FAQ** 위에 **Download**가 있는데  
-거기서 **Download from the authors' website:**라고 써진 부분 바로 아래에  
+거기서 **Download from the authors' website:** 라고 써진 부분 바로 아래에  
 `jarfix.exe`라고 파란 글씨로 써져 있는 걸 클릭해 다운로드해  
 실행해서 Jarfix를 설치합니다.  
 
