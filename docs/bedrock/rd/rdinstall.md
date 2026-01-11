@@ -24,8 +24,8 @@
 > 삼성 갤럭시, 샤오미, 구글 픽셀 등 애플의 제품을 제외한 거의 대부분의 폰은 안드로이드를 사용합니다.
 
 1. [MB Loader](https://github.com/DominoKorean/Render-dragon-shader-list/blob/main/language/ko_kr/README.md#mb-loader)를 설치합니다.
-2. `Load to mbl2`버튼을 누르면 현제 설치돼 있는 마인크래프트로 실행됩니다.
-3. [Renderdragon Shader List](https://github.com/DominoKorean/Render-dragon-shader-list/blob/main/language/ko_kr/README.md)에서 `안드로이드`태그가 있는 셰이더팩을 다운로드 받아 리소스팩을 불러와 **글로벌 리소스**로 적용합니다.
+2. `MBL2로 불러오기`버튼을 누르면 현제 설치돼 있는 마인크래프트로 실행됩니다.
+3. [Renderdragon Shader List](https://github.com/DominoKorean/Render-dragon-shader-list/blob/main/language/ko_kr/README.md)에서 `안드로이드`태그가 있는 셰이더팩을 다운로드 받아 리소스팩을 불러와 리소스팩으로 적용합니다.
 
 <br>
 
