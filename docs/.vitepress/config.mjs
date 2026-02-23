@@ -95,6 +95,10 @@ export default defineConfig({
                {
                 text: '팩, 모드, 프로그램 용어 정리',
                 link: 'both/packterms/packterms.md'
+              },
+              {
+                text: '픽셀아트 프로그램',
+                link: 'both/pixelart_program/pixelart_program.md'
               }
             ]
           },
