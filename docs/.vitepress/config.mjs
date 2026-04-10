@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import footnote from 'markdown-it-footnote'
+import namuFootnote from './markdown-it-namu-footnote.js'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -19,6 +20,7 @@ export default defineConfig({
   markdown: {
     config: (md) => {
       md.use(footnote)
+      md.use(namuFootnote)
     }
   },
   themeConfig: {
@@ -99,6 +101,10 @@ export default defineConfig({
               {
                 text: '픽셀아트 프로그램',
                 link: 'both/pixelart_program/pixelart_program.md'
+              },
+              {
+                text: '픽셀아트 유틸리티',
+                link: 'both/pixelart_util/pixelart_util.md'
               }
             ]
           },

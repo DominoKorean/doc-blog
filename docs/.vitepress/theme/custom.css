@@ -74,3 +74,16 @@
 .footnote-tooltip-layer a:focus-visible {
   color: var(--vp-c-brand-2);
 }
+
+/* Namu Wiki-style footnotes — custom label display */
+.namu-footnotes .footnotes-list {
+  list-style: none;
+}
+
+.namu-footnotes .footnote-item::before {
+  content: attr(data-label) ". ";
+}
+
+.namu-footnotes .footnote-item p {
+  display: inline;
+}

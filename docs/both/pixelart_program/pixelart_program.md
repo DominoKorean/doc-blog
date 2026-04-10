@@ -1,13 +1,8 @@
 # 픽셀아트 프로그램 목록
 
-::: info :bulb: 오픈소스에 대해서
-오픈소스로 표시돼 있는 건 소스코드는 다 무료로 열려있는데 패키징 배포가 무료로 거기에 안돼있다는 말임  
+::: info :bulb: **오픈소스**에 대해서
+다운로드 링크 옆에 `오픈소스`로 표시돼 있는 건 소스코드는 다 무료로 열려있는데 패키징 배포가 무료로 거기에 안돼있다는 말임  
 Aseprite 같이 유명한 건 검색하면 하는 방법 나옴
-
-Gemini나 GPT같이 AI 구독 쓰고 있는 사람은 VS Code 깔아서 전용 공식 코딩용 익스텐션 깔고  
-"해줘"하면 쉽게 할 수 있고  
-없는 사람은 깃허브 VS Code에 `GitHub Copilot Chat`익스텐션 깔고  
-VS Code에 깃허브 로그인해서 Gemini 3 Flash 나 Pro 선택하고 무료 할당량으로 "해줘" 하면 됨
 :::
 
 ::: info :bulb: OS 설명
@@ -116,34 +111,53 @@ Resprite DA: **PC, 모바일** &nbsp; `Windows` `Mac` `Android`
 
 
 
-## <img src = "./icon/pixelcomposer.ico" width = "30px" height = "30px" />Pixel Composer {#pixel-composer}
+## <img src = "./icon/pixelorama.ico" width = "30px" height = "30px" />Pixelorama {#pixelorama}
 
-**PC** &nbsp; `Windows` `Linux`
+**PC** &nbsp; `Web` `Windows` `Linux` `Mac`
 
-> **노드 컴포지팅및 동적 에니메이션 메인**
+> 드로잉, 에니메이팅, 3D 렌더링,  한국어 유저번역 지원
 
-> 드로잉, 에니메이팅, 노드 컴포지팅, 3D 렌더링, 본 에니메이션, 스크립팅 지원, 한국어 유저번역 지원
+- [Github](https://github.com/Orama-Interactive/Pixelorama/releases) &nbsp; `무료`
+- [Steam](https://store.steampowered.com/app/2779170/Pixelorama/) &nbsp; `₩ 11,000`
+- [itch.io](https://orama-interactive.itch.io/pixelorama) &nbsp; `무료`
+- [Flathub](https://flathub.org/en/apps/com.orama_interactive.Pixelorama) &nbsp; `무료`
 
-- [Github](https://github.com/Ttanasart-pt/Pixel-Composer) &nbsp; `오픈소스`
-- [Steam](https://store.steampowered.com/app/2299510/Pixel_Composer/) &nbsp; `₩ 11,000`
-- [itch.io](https://pixieditor.itch.io/pixieditor) &nbsp; `$ 10.00`
-
-> https://pixel-composer.com
-
+> https://pixelorama.org
 
 
-## <img src = "./icon/pixelover.png" width = "30px" height = "30px" />PixelOver {#pixelover}
+
+## <img src = "./icon/blockbench.png" width = "30px" height = "30px" />Blockbench[* 모델링 툴이지만 픽셀아트 워크스페이스를 지원함]  {#blockbench}
+
+**PC** &nbsp; `Web`[* 모바일 UI지원 ] `Windows` `Linux` `Mac`
+
+> 드로잉, 한국어 유저번역 지원
+
+- [Blockbech](https://www.blockbench.net/downloads) &nbsp; `무료`
+- [Blockbech (Web)](https://web.blockbench.net/)
+
+> https://www.blockbench.net
+
+
+
+## <img src = "./icon/pixilart.png" width = "30px" height = "30px" />Pixilart
+
+**PC** &nbsp; `Web` `iOS` `iPadOS`
+
+> 드로잉, 에니메이팅
+
+- [Apple App Store](https://apps.apple.com/us/app/pixilart/id1440580518) `무료`
+
+> https://www.pixilart.com
+
+
+
+## <img src = "./icon/sqpaint.ico" width = "30px" height = "30px" />SqPaint {#sqpaint}
 
 **PC** &nbsp; `Windows`
 
-> **본 리깅 및 동적 에니메이션 메인**
+> 드로잉, 일본어만 지원
 
-> 에니메이팅, 3D 렌더링, 본 에니메이션
-
-- [Steam](https://store.steampowered.com/app/2299510/Pixel_Composer/) &nbsp; `₩ 21,000`
-- [itch.io](https://pixieditor.itch.io/pixieditor) &nbsp; `$ 30.00`
-
-> https://pixelover.io
+> https://nezutako.com/works/tools/sq-paint
 
 <br>
 <br>

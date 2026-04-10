@@ -165,21 +165,20 @@ function bindFootnoteTooltipEvents(target) {
     scheduleTooltipHide(target)
   }
   const hideImmediate = () => hideFootnoteTooltip(target)
-  const handleTouch = () => {
+  const handleTouch = (e) => {
+    e.preventDefault()
+    if (activeTooltipTarget === target) {
+      hideFootnoteTooltip(target)
+      return
+    }
     show()
-    window.clearTimeout(tooltipTouchTimeout)
-    tooltipTouchTimeout = window.setTimeout(() => {
-      if (activeTooltipTarget === target) {
-        hideFootnoteTooltip(target)
-      }
-    }, 2500)
   }
 
   target.addEventListener('mouseenter', show)
   target.addEventListener('mouseleave', queueHide)
   target.addEventListener('focus', show)
   target.addEventListener('blur', hideImmediate)
-  target.addEventListener('touchstart', handleTouch, { passive: true })
+  target.addEventListener('touchstart', handleTouch, { passive: false })
 
   target.dataset.footnoteTooltipBound = 'true'
 }

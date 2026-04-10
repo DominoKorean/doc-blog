@@ -61,6 +61,10 @@ APK를 직접 수정하여 적용하는 수동 설치를 원한다면 다음 문
 
 ### 윈도우
 
+::: danger ⚠️ 업데이트 필요
+업데이트가 필요한 문서
+:::
+
 1. [BetterRenderDragon](https://github.com/QYCottage/BetterRenderDragon/releases)의 Realeses에서 가장 최신 버전을 다운로드합니다.
 2. `BetterRenderDragon.zip`의 압축을 풀고 `mcbe_injector.exe`파일을 실행합니다.
 3. [Renderdragon Shader List](https://github.com/DominoKorean/Render-dragon-shader-list/blob/main/language/ko_kr/README.md)에서 셰이더팩을 다운받아 리소스팩을 불러와 **글로벌 리소스**로 적용합니다.
