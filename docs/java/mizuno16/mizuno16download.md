@@ -14,3 +14,7 @@
    - [CurseForge 다운로드](https://www.curseforge.com/minecraft/texture-packs/modern-mizunos)
 
 이건 Mizuno's 16 Craft에서 기존 스타일을 최대한 따라해 최신 버전 블록들의 텍스쳐를 추가하는 리소스팩이다. 크게 이질감이 들진 않으니 최신 버전에선 이걸 같이 써주는것이 좋다.
+
+<br>
+
+![](./2026-06-17_20.45.49.png)
