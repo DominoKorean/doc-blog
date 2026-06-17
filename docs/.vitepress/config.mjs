@@ -34,7 +34,7 @@ export default defineConfig({
     //사이드바
     sidebar: [
       {
-        text: '개발',
+        text: '개발/제작',
         collapsed: false,
         items: [
           {
@@ -53,6 +53,19 @@ export default defineConfig({
                 text: '리소스팩 개발자들을 위한 Block.json 설명', 
                 link: '/bedrock/blockjson',
               },
+            ]
+          },
+          {
+            text: '기타',
+            items: [
+              {
+                text: '픽셀아트 프로그램',
+                link: 'both/pixelart_program/pixelart_program.md'
+              },
+              {
+                text: '픽셀아트 유틸리티',
+                link: 'both/pixelart_util/pixelart_util.md'
+              }
             ]
           },
         ]
@@ -75,6 +88,10 @@ export default defineConfig({
               {
                 text: '옵티파인 설치법',
                 link: '/java/install_optifine/install_optifine'
+              },
+              {
+                text: 'Mizuno\'s 16 Craft 리소스팩 다운로드 방법',
+                link: '/java/mizuno16/mizuno16download.md'
               }
             ]
           },
@@ -97,14 +114,6 @@ export default defineConfig({
                {
                 text: '팩, 모드, 프로그램 용어 정리',
                 link: 'both/packterms/packterms.md'
-              },
-              {
-                text: '픽셀아트 프로그램',
-                link: 'both/pixelart_program/pixelart_program.md'
-              },
-              {
-                text: '픽셀아트 유틸리티',
-                link: 'both/pixelart_util/pixelart_util.md'
               }
             ]
           },
