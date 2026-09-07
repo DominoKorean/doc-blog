@@ -14,7 +14,7 @@ export default function namuFootnotePlugin(md) {
     const { id, displayLabel } = tokens[idx].meta
     return (
       '<sup class="footnote-ref">' +
-      '<a href="#' + id + '" id="' + id + 'ref">[' + escapeHtml(displayLabel) + ']</a>' +
+      '<a href="#' + id + '" id="' + id + 'ref" class="namu-footnote-ref">[' + escapeHtml(displayLabel) + ']</a>' +
       '</sup>'
     )
   }

@@ -157,6 +157,7 @@ function bindFootnoteTooltipEvents(target) {
     return
   }
 
+  let lastTouchAt = 0
   const show = () => {
     window.clearTimeout(tooltipHideTimeout)
     showFootnoteTooltip(target)
@@ -166,6 +167,7 @@ function bindFootnoteTooltipEvents(target) {
   }
   const hideImmediate = () => hideFootnoteTooltip(target)
   const handleTouch = (e) => {
+    lastTouchAt = Date.now()
     e.preventDefault()
     if (activeTooltipTarget === target) {
       hideFootnoteTooltip(target)
@@ -173,12 +175,23 @@ function bindFootnoteTooltipEvents(target) {
     }
     show()
   }
+  const handleClick = (e) => {
+    if (!target.classList.contains('namu-footnote-ref')) return
+
+    const isTouchEnvironment = window.matchMedia('(hover: none), (pointer: coarse)').matches
+    const followsTouch = Date.now() - lastTouchAt < 1000
+
+    if (isTouchEnvironment || followsTouch) {
+      e.preventDefault()
+    }
+  }
 
   target.addEventListener('mouseenter', show)
   target.addEventListener('mouseleave', queueHide)
   target.addEventListener('focus', show)
   target.addEventListener('blur', hideImmediate)
   target.addEventListener('touchstart', handleTouch, { passive: false })
+  target.addEventListener('click', handleClick)
 
   target.dataset.footnoteTooltipBound = 'true'
 }
