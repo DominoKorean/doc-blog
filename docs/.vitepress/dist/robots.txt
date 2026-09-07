@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
- 
-sitemap: https://domain.tld/sitemap.xml
-sitemap: https://domain.tld/atom.xml
-sitemap: https://domain.tld/rss.xml
+
+sitemap: https://dominokorean.github.io/doc-blog/sitemap.xml
+
