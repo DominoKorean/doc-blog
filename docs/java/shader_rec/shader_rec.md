@@ -1,7 +1,9 @@
-﻿# 셰이더팩 추천 목록
+﻿# 셰이더 팩 추천 목록
+
+마인크래프트를 시작한 이례로 셰이더 팩만 주구장창 파온 사람이 추천해주는 셰이더 팩 목록
 
 ::: warning ⚠️ 불법 복제 사이트 주의
-셰이더팩은 Modrinth (커뮤니티 추천), Curseforge에 주로 업로드되며  
+셰이더 팩은 Modrinth (커뮤니티 추천), Curseforge에 주로 업로드되며  
 이 외에 개발자의 Github 및 전용 개인 사이트와 디스코드, Planetminecraft, Minecraft Forum 등에 업로드됨  
 
 이 외의 플랫폼 (ex. 9Minecraft)은 99% 확률로 복돌임  
@@ -21,25 +23,25 @@
 대부분의 셰이더는 Nvidia, AMD 그래픽 카드가 아닐 시 의도된 기능이 작동하지 않거나 할 수 있음  
 각 셰이더 지원 여부는 [ShaderLabs 위키 셰이더 목록 문서](https://shaderlabs.org/wiki/Shaderpacks) 확인
 
-노트북 내장 그래픽은 저사양 써도 10 프레임 안팎이니까 그냥 이쁜 리소스팩 쓰는 걸 강력 추천  
+노트북 내장 그래픽은 저사양 써도 10 프레임 안팎이니까 그냥 이쁜 리소스 팩 쓰는 걸 강력 추천  
 
 :::
 
 ::: info PBR 설명
 
 - **PBR항이 무엇인가?**  
-  PBR 리소스팩을 지원하는지에 대한 여부  
-  PBR 리소스팩이란 대충 거칠기, 금속성, 그림자효과등  
-  셰이더에서 처리하는 재질효과가 따로 있는 리소스팩을 말함
+  PBR 리소스 팩을 지원하는지에 대한 여부  
+  PBR 리소스 팩이란 대충 거칠기, 금속성, 그림자효과등  
+  셰이더에서 처리하는 재질효과가 따로 있는 리소스 팩을 말함
 
-BSL같이 대부분 PBR 리소스팩 지원은 설정에서 켜줘야 됨  
+BSL같이 대부분 PBR 리소스 팩 지원은 설정에서 켜줘야 됨  
 매우 비추천은 있으나 마나라는 거임  
 내장 PBR 지원은 셰이더에서 이미 내장으로 지원한다는거  
 대부분 텍스쳐 지원 기준. 단순 내장 재질이면 대부분 나뭇잎 SSS정도는 있음.  
 PBR 항에 "**개발에 자주 사용됨**"은 실제 PBR 리팩 제작에 자주 쓰인다는 뜻임
 
-Old PBR(SEUS PBR)은 예전에 사용되던 PBR 리소스팩 포맷임  
-요즘 리소스팩과는 호환이 안된다는 뜻  
+Old PBR(SEUS PBR)은 예전에 사용되던 PBR 리소스 팩 포맷임  
+요즘 리소스 팩과는 호환이 안된다는 뜻  
 LabPBR 풀지원은 LabPBR 1.3 포맷에 있는 모든 재질을 지원한다는 말임  
 레이트레이싱 같은 셰이더는 의도적으로 굳이 AO지원 안하는 경우도 있으니 굳이 이걸로 쓰진 않아도 됨  
 내장 PBR은 따로 리팩 안 껴도 PBR 재질이 내장돼있다는 말
@@ -76,7 +78,7 @@ SEUS PTGI같이 레이트레이싱 등 바닐라가 아닌 특수한 조명을 �
 
 # 추천하는 셰이더
 
-| 셰이더 | 사양 | PBR 리소스팩 | 가격 | 모드 지원 | 추천 콘텐츠 | 부가 설명 |
+| 셰이더 | 사양 | PBR 리소스 팩 | 가격 | 모드 지원 | 추천 콘텐츠 | 부가 설명 |
 |-------|------|-------------|------|----------|-------------|----------|
 |[projectLUMA](https://www.curseforge.com/minecraft/shaders/projectluma)|초저사양|매우 비추천|무료|특별 지원 없음|야생<br>PVP<br>탈출맵|옛날 셰이더라 관련 버그가 날 수도 있음 <br> 예전 버전이라면 더더욱 강력 추천|
 |[SEUS RENEWED](https://sonicether.com/shaders/download/renewed-v1-0-1/)|초저사양|지원|무료|특별 지원 없음|야생<br>PVP<br>영상 콘텐츠|옛날 셰이더라 관련 버그가 날 수도 있음<br>색유리가 검게 되는 버그 존재|
@@ -85,9 +87,8 @@ SEUS PTGI같이 레이트레이싱 등 바닐라가 아닌 특수한 조명을 �
 |[Photon](https://modrinth.com/shader/photon-shader)|중저사양|지원|무료|특별 지원 없음|야생<br>PVP<br>영상 콘텐츠<br>개발||
 |[BSL](https://modrinth.com/shader/bsl-shaders)|중간사양|LabPBR 풀지원|무료|호환성 매우 좋음 <br> [DH](https://modrinth.com/mod/distanthorizons) 지원|마인크래프트 내 <br> 대부분 콘텐츠||
 |[Complementary](https://modrinth.com/shader/complementary-reimagined)|중간사양|LabPBR 풀지원<br>내장 PBR 지원|무료|호환성 매우 좋음 <br> [DH](https://modrinth.com/mod/distanthorizons) 지원|마인크래프트 내 <br> 대부분 콘텐츠||
-|[Complementary<br>Euphoria<br>Patches](https://modrinth.com/mod/euphoria-patches)|중간사양|LabPBR 풀지원<br>내장 PBR 지원|무료|300개 이상 모드 블록 지원<br>[지원 모드 리스트](https://www.euphoriapatches.com/properties/list/)<br>[DH](https://modrinth.com/mod/distanthorizons) 지원<br>[Create](https://modrinth.com/mod/create) 특수 지원|마인크래프트 내 <br> 대부분 콘텐츠|모드로 설치해야됨.<br>Complementary셰이더 필요|
+|**[Complementary<br>Euphoria<br>Patches](https://modrinth.com/mod/euphoria-patches)**|중간사양|LabPBR 풀지원<br>내장 PBR 지원|무료|300개 이상 모드 블록 지원<br>[지원 모드 리스트](https://www.euphoriapatches.com/properties/list/)<br>[DH](https://modrinth.com/mod/distanthorizons) 지원<br>[Create](https://modrinth.com/mod/create) 특수 지원|마인크래프트 내 <br> 대부분 콘텐츠|모드로 설치해야됨<br>Complementary셰이더 필요|
 |[Bliss](https://github.com/X0nk/Bliss-Shader)|중간사양|LabPBR 풀지원<br>개발에 자주 사용됨|무료|호환성 좋음 <br> [DH](https://modrinth.com/mod/distanthorizons) 지원|야생<br>건축<br>영상 콘텐츠<br>개발|가장 안정된 버전은 Release에서<br>최신 안정된 버전은 Stable 브랜치에서<br>(화면 상단 녹색 Code 버튼)<br>다운 가능|
-|[FastPBR](https://modrinth.com/shader/fastpbr)|중간사양|지원|무료|호환성 매우 안 좋음|건축|종종 버그로 화면 공간 반사(SSR) 작동 안 함|
 |[Nostalgia](https://modrinth.com/shader/nostalgia-shader)|중고사양|지원<br>개발에 자주 사용됨|무료|호환성 매우 안 좋음|야생<br>건축<br>영상 콘텐츠||
 |[Kappa](https://modrinth.com/shader/kappa-shader)|중고사양|지원<br>개발에 자주 사용됨|무료|호환성 매우 안 좋음|야생<br>건축<br>영상 콘텐츠|
 |[SEUS PTGI](https://www.patreon.com/c/sonicether)|고사양|Old PBR만 지원|무료|호환성 매우 안 좋음|야생<br>탈출맵<br>(버전 호환되는 경우만)<br>건축|가장 많이 사용되는 건 HRR 2.1<br>가장 최신버전은 HRR 3<br>최신 버전에서 가장 렉이 덜 걸리는 건 HRR 2<br>각 버전에 쓰여있는 마크 버전보다<br>높은 버전의 블록은 버그남<br>모드 블록, 리팩 커스텀 블록 모델도 동일|
@@ -96,6 +97,7 @@ SEUS PTGI같이 레이트레이싱 등 바닐라가 아닌 특수한 조명을 �
 |[ApolloRT](https://www.patreon.com/snurf)|고사양|지원|7 달러<br>(패트리온)|호환성 매우 안 좋음|야생<br>건축<br>영상 콘텐츠||
 |[MollyVX](https://www.patreon.com/rutherin)|고사양|지원<br>(Old PBR 때 재질만)|5 달러<br>(패트리온)|호환성 매우 안 좋음|야생<br>건축<br>영상 콘텐츠|구매시 Raspberry, VXFluff<br>까지 같이 사용 가능|
 |[Sundial](https://afdian.com/a/geforcelegend)|고사양|LabPBR 풀지원|10 위안<br>(Afdian)|[DH](https://modrinth.com/mod/distanthorizons) 지원<br>[Physics Mod](https://modrinth.com/mod/physicsmod) 일부 지원|야생<br>건축<br>탈출맵<br>영상 콘텐츠<br>개발|
+|[IterationRP](https://afdian.com/a/tahnass)|고사양|LabPBR 풀지원|10 위안<br>(Afdian)|[DH](https://modrinth.com/mod/distanthorizons) 지원<br>[Physics Mod](https://modrinth.com/mod/physicsmod) 일부 지원|야생<br>건축<br>탈출맵<br>영상 콘텐츠<br>개발|
 
 
 ## 취향에 따라 추천하는 셰이더
@@ -103,7 +105,7 @@ SEUS PTGI같이 레이트레이싱 등 바닐라가 아닌 특수한 조명을 �
 > 사양 대비 퀄리티 때문에 크게 추천하진 않지만  
 > 취향에 맞다면 사용해볼만한 셰이더
 
-| 셰이더 | 사양 | PBR 리소스팩 | 가격 | 모드 지원 | 부가 설명 |
+| 셰이더 | 사양 | PBR 리소스 팩 | 가격 | 모드 지원 | 부가 설명 |
 |-------|------|-------------|------|----------|----------|
 |[AstraLex](https://modrinth.com/shader/astralex)|중간 사양|지원|무료|특별 지원 없음||
 |[Solas](https://modrinth.com/shader/solas-shader)|중간 사양|지원|무료|[DH](https://modrinth.com/mod/distanthorizons) 지원<br> [8개의 모드 블록 지원](https://modrinth.com/shader/solas-shader/version/2.4b)||
@@ -121,7 +123,7 @@ SEUS PTGI같이 레이트레이싱 등 바닐라가 아닌 특수한 조명을 �
 | 셰이더 | 설명 |
 |-------|------|
 |MakeUp - Ultra Fast|퀄리티 대비 하나도 안빠름<br>이거 쓸 바에 Silders나 Chocapic 쓰는 걸 매우 강력히 추천|
-|iterationT, iterationRP|라이선스 무시하고 다른 셰이더 코드 가져다 쓴 중국산 셰이더<br>당연히 라이선스 위반임<br>iterationRP도 문제 되는 부분 제거했다 했지만 원본이 원본인지라<br>당연히 긴빠이 코드 남아있을 가능성 충분|
+|iterationT|라이선스 무시하고 다른 셰이더 코드 가져다 쓴 중국산 셰이더<br>당연히 라이선스 위반임|
 |Pyvtron, Pyvtron VX|iteration 개조 버전|
 
 ## 퀄리티 안좋은 셰이더, 불펌 셰이더 피하는 법
@@ -140,6 +142,8 @@ SEUS PTGI같이 레이트레이싱 등 바닐라가 아닌 특수한 조명을 �
 2. 쓸 거 없음 그냥 Complementary 써라
 3. 모드 쓸 거면 그냥 Euphoria Patches 써라
 4. 대형 모드 쓸 거면 레이트레이싱 같은 특수 조명 모드는 포기해라
+
+그리고 인지도 때문에 Curseforge에 특히 불펌이랑 이상한거 많이 올라옴. 검색도 더 편한 Modrinth에서 찾는걸 추천함.
 
 ## Complementary를 써야 하는 이유
 대부분의 상황에서, 특히 방송인들은 Complementary를 쓰는 것을 강력히 추천함  
@@ -165,41 +169,7 @@ Complementary는 컨샙 자체가 어느 상황에서나 뛰어난 퀄리티와 
 
 ## Iris Shader? Optifine? 뭐써야됨?
 
-[버전별 셰이더팩 설치법](/java/what_shader_mod/what_shader_mod)
-
-
-## 기타 TMI
-
-
-::: info 이 밑부턴 안 읽어도 됨
-여러 가지 일반적인 일반 유저들은 모를법한 이야기에 대한 TMI 같은 거임  
-안 읽어도 됨
-:::
-
-### 옵티파인 업데이트 왜 이렇게 느림? {#optifine-update}
-마인크래프트는 매 업데이트마다 그래픽 관련이 크게 바뀜. 어쩔 수 없음.  
-따라서 셰이더, CTM(이어지는 블록 텍스쳐)등등의 그래픽 관련 모드들은  
-유지 보수에 많은 시간과 노력이 듦  
-
-근데 옵티파인은 그걸 모드 대여섯 개의 기능이 합쳐져 있고 그걸 10년 넘게 유지 중임  
-물론 처음부터 그걸 한 사람이 다 만든 것도 아니고 유지개발 하며 아무의 도움도 받지 않은 것도 아니지만  
-애당초 1.17을 고려하지 않고 개발된 모드들을 계속 작동하도록 업데이트를 그것도 혼자서 할려니까 힘이 들 수밖에 없음  
-
-아무리 사이트에 광고가 있어도 그게 유의미할 정도의 떼돈을 벌어다주지도 않고  
-후원을 하면 망토를 준다 해도 당시 모장이 허가해 준 걸 보면 알겠지만 웃고 넘길 수 있는 수준의 금액임  
-거기다 물리적, 정신적으로도 계속 지속하는 데는 무리가 있을 수밖에 없음  
-
-따라서 정리하면
-1. 그래픽 모드는 원래도 유지하기 힘든데
-2. 옵티파인은 기능도 많고
-3. 너무 오래된 데다
-4. 혼자서 유지해야 해서 힘듦
-
-그래서 어차피 기다려야 하는 건 최신 버전이니까  
-1.16 아래는 예전 버전, 1.16 이상은 Iris Shader나 [FO 모드팩](https://modrinth.com/modpack/fabulously-optimized) 쓰라는 거임
-참고로 최적화 원하는 거면 옵티파인 최적화는 최신 버전에서는 의미가 없고  
-FO 모드팩에 있는 모드들 같이 따로 최적화 모드들을 깔아야지 좀 성능이 나옴
-
+[버전별 셰이더 팩 설치법](/java/what_shader_mod/what_shader_mod)
 
 
 <script setup>

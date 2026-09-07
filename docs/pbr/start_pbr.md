@@ -5,7 +5,7 @@
 # PBR 텍스처에 대해 알아보자
 
 ::: info
-이 문서는 마인크래프트 리소스팩으로 적용할 수 있는 PBR 텍스처에 대한 가이드입니다.  
+이 문서는 마인크래프트 리소스 팩으로 적용할 수 있는 PBR 텍스처에 대한 가이드입니다.  
 일반적으로 3D 그래픽에서 사용되는 머터리얼 텍스처에 대한 설명과는 조금 다를 수 있습니다.
 :::
 
@@ -61,7 +61,7 @@ PBR은 물리 기반 렌더링 **P**hysicaly **B**ased **R**endering의 약자�
 
 ### PBR 텍스처 포맷
 * [베드락 포맷(원문)](https://learn.microsoft.com/en-us/minecraft/creator/documents/vibrantvisuals/pbroverview?view=minecraft-bedrock-stable)
-  - 베드락 PBR 리소스팩에 대해 알아보자 `(문서 작성 예정)`
+  - 베드락 PBR 리소스 팩에 대해 알아보자 `(문서 작성 예정)`
 - 자바 포맷
   - [LabPBR 1.3(원문)](https://shaderlabs.org/wiki/LabPBR_Material_Standard)
   - OldPBR (SEUSpbr)
@@ -99,14 +99,14 @@ ApolloRT와 같이 빛에 경로추적 기술을 사용하는 셰이더를 사�
 :::
 
 OldPBR과 LabPBR이 있는데 쉽게 말해 전세대 신세대 포맷이다.  
-현제는 업데이트가 끊기지 않는이상 모든 셰이더와 리소스팩이 LabPBR포맷을 지원하기 때문에  
+현제는 업데이트가 끊기지 않는이상 모든 셰이더와 리소스 팩이 LabPBR포맷을 지원하기 때문에  
 해당 포맷을 사용하는것이 좋다.  
 
 OldPBR은 이전에 SEUS 셰이더에서 사용하다 퍼진 포맷으로  
-몇년전에 업데이트가 끊긴 셰이더및 리소스팩은 모두 이 포맷으로 되어있다.
+몇년전에 업데이트가 끊긴 셰이더및 리소스 팩은 모두 이 포맷으로 되어있다.
 
 때문에 업데이트가 몇년간 끊긴 SEUS PTGI는 여전히 OldPBR 포맷을 사용중이니  
-PBR 리소스팩을 개발할땐 셰이더의 퀄리티가 좋아도 SEUS PTGI는 쓰지 않는것이 좋다.  
+PBR 리소스 팩을 개발할땐 셰이더의 퀄리티가 좋아도 SEUS PTGI는 쓰지 않는것이 좋다.  
 ( 만약 정말로 사용하고싶다면 [SEUS PTGI GFME](https://github.com/GeForceLegend/SEUS_PTGI_GFME )를 사용할 수 있다.  
 참고로 이걸 쓴다고 해도 여전히 OldPBR에서 지원하던 재질만 지원하니 참고하자 ) 
 
@@ -114,7 +114,7 @@ PBR 리소스팩을 개발할땐 셰이더의 퀄리티가 좋아도 SEUS PTGI�
 
 베드락의 경우 이 역시 베드락 포맷 설명문에 적어놨다.  
 
-Pixelgraph라는 PBR 리소스팩 제작 도구가 있는데 ( PBR 텍스처 제작 X )   
+Pixelgraph라는 PBR 리소스 팩 제작 도구가 있는데 ( PBR 텍스처 제작 X )   
 베드락의 경우 직접 편집하거나 Pixelgraph를 통해 관리하는게 좋고  
 자바는 그냥 Pixelgraph를 쓰는걸 추천한다.
 - Pixelgraph 사용법 `(문서 작성 예정)`

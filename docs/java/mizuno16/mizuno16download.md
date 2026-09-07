@@ -1,4 +1,4 @@
-# 마인크래프트 Mizuno's 16 Craft 리소스팩 최신 버전 다운로드 방법
+# 마인크래프트 Mizuno's 16 Craft 리소스 팩 최신 버전 다운로드 방법
 
 ![](./2026-06-17_20.45.49.png)
 
@@ -15,7 +15,7 @@
    - [Modrinth 다운로드](https://modrinth.com/resourcepack/modern-mizunos)
    - [CurseForge 다운로드](https://www.curseforge.com/minecraft/texture-packs/modern-mizunos)
 
-이건 Mizuno's 16 Craft에서 기존 스타일을 최대한 따라해 최신 버전 블록들의 텍스쳐를 추가하는 리소스팩이다. 크게 이질감이 들진 않으니 최신 버전에선 이걸 같이 써주는것이 좋다.
+이건 Mizuno's 16 Craft에서 기존 스타일을 최대한 따라해 최신 버전 블록들의 텍스쳐를 추가하는 리소스 팩이다. 크게 이질감이 들진 않으니 최신 버전에선 이걸 같이 써주는것이 좋다.
 
 이런식으로 Mizuno's 16 Craft위에 같이 사용해주면 된다.
 

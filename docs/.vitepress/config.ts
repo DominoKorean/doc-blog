@@ -41,7 +41,7 @@ export default defineConfig({
             text: '자바',
             items: [
               { 
-                text: 'json 구문으로 리소스팩/데이터팩 설명 커스텀하기',
+                text: 'json 구문으로 리소스 팩/데이터팩 설명 커스텀하기',
                 link: '/java/respackjson/respackjson'
               },
             ]
@@ -50,7 +50,7 @@ export default defineConfig({
             text: '베드락',
             items: [
               { 
-                text: '리소스팩 개발자들을 위한 Block.json 설명', 
+                text: '리소스 팩 개발자들을 위한 Block.json 설명', 
                 link: '/bedrock/blockjson',
               },
             ]
@@ -82,7 +82,7 @@ export default defineConfig({
                 link: '/java/shader_rec/shader_rec'
               },
               {
-                text: '버전별 셰이더팩 설치 필요 모드',
+                text: '버전별 셰이더 팩 설치 필요 모드',
                 link: '/java/what_shader_mod/what_shader_mod'
               },
               {

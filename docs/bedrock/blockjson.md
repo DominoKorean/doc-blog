@@ -1,13 +1,13 @@
-# 베드락 리소스팩 개발자들을 위한 block.json 설명글
+# 베드락 리소스 팩 개발자들을 위한 block.json 설명글
 
 ::: info
-리소스팩 개발자들을 위한 문서로  
-[마이크로소프트 공식 문서](https://learn.microsoft.com/en-us/minecraft/creator/reference/content/blockreference/?view=minecraft-bedrock-stable)와 [Bedrock Wiki](https://wiki.bedrock.dev/blocks/block-components)에 있는 내용중 리소스팩만으로만 사용 가능한 부분을 종합해 정리한 문서입니다.  
+리소스 팩 개발자들을 위한 문서로  
+[마이크로소프트 공식 문서](https://learn.microsoft.com/en-us/minecraft/creator/reference/content/blockreference/?view=minecraft-bedrock-stable)와 [Bedrock Wiki](https://wiki.bedrock.dev/blocks/block-components)에 있는 내용중 리소스 팩만으로만 사용 가능한 부분을 종합해 정리한 문서입니다.  
 애드온 개발에 대해서는 위 두 문서를 참고해 주세요.
 :::
 
 # blocks.json
-blocks.json은 리소스팩으로 가능한  
+blocks.json은 리소스 팩으로 가능한  
 블록의 모든 상태를 지정해 줄 수 있는 거라고 보면 된다
 
 ## 그전에 json이 뭐임?
@@ -16,10 +16,10 @@ blocks.json은 리소스팩으로 가능한
 그냥 대충  
 "자 이제부터 니 오른쪽 텍스쳐는 dirt.png를 쓰고 이거엔 3이라는 값을 써"  
 해서 데이터를 형식에 맞게 저장해두면 그 데이터값을 불러와서  
-리소스팩으로 불러와주는 방식이다.  
+리소스 팩으로 불러와주는 방식이다.  
 어렵다고 생각될 수도 있는데  
 알맞은 폴더위치에 텍스쳐를 저장해두면 그 텍스쳐 파일을 불러와서  
-리소스팩으로 불러와주는거랑 비슷한 원리다.   
+리소스 팩으로 불러와주는거랑 비슷한 원리다.   
 ( 적용 되는게 비슷한 원리라는거지 코드상으로 불러오는 방법이 비슷하다는게 아님 )  
 
 
@@ -29,7 +29,7 @@ blocks.json은 리소스팩으로 가능한
 일단 blocks.json은
 
 ```
-📁리소스팩
+📁리소스 팩
     ↳🖼️ pack_icon.png
      🗒️ manifest.json
      🗒️ blocks.json
@@ -37,7 +37,7 @@ blocks.json은 리소스팩으로 가능한
 ```
 이런식으로 리팩 폴더안에 바로 넣으면 된다.
 
-기본적인 베이스는 여기 베드락 리소스팩 공식 샘플파일 있으니까  
+기본적인 베이스는 여기 베드락 리소스 팩 공식 샘플파일 있으니까  
 여기서 확인할 수 있고  
 https://github.com/Mojang/bedrock-samples  
 그래도 기본적인 형식 대충 보여주면

@@ -49,7 +49,7 @@ https://cafe.naver.com/minecraftgame/1873824)
 
 ## 팩 불러오기 / 적용하기
 
-- [애드온(행동팩), 리소스팩 적용](https://cafe.naver.com/minecraftgame/1724329)
+- [애드온(행동팩), 리소스 팩 적용](https://cafe.naver.com/minecraftgame/1724329)
 - [베드락 렌더드래곤 셰이더 설치법](https://dominokorean.github.io/doc-blog/bedrock/rd/rdinstall.html) 도미노한국인 문서 블로그 제공
 
 ## 서버 개발  
@@ -71,7 +71,7 @@ https://cafe.naver.com/minecraftgame/1873824)
 - 모델링 강좌
   - [0](https://cafe.naver.com/minecraftgame/1870894) 
   - [1](https://cafe.naver.com/minecraftgame/1871546)
-- [폰트 변경 리소스팩 제작](https://cafe.naver.com/minecraftgame/1893754)
+- [폰트 변경 리소스 팩 제작](https://cafe.naver.com/minecraftgame/1893754)
 
 ## 기타
 
