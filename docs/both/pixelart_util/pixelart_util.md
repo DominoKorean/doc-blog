@@ -26,11 +26,11 @@ Aseprite 같이 유명한 건 검색하면 하는 방법 나옴
 주로 파티클, 이펙트 제작, UI 에니메이팅에 씌임.  
 키프레임 에니메이션및 값에 스크립팅 지원.
 
-> 드로잉, 에니메이팅, 노드 컴포지팅, 3D 렌더링, 본 에니메이션, 스크립팅 지원, 에셋 포함, 한국어 유저번역 지원
+> 드로잉, 에니메이팅, 노드 컴포지팅, 3D 렌더링, 본 에니메이션, 스크립팅 지원, 에셋 포함, 3D 텍스처링
 
 - [Github](https://github.com/Ttanasart-pt/Pixel-Composer) &nbsp; `오픈소스`
-- [Steam](https://store.steampowered.com/app/2299510/Pixel_Composer/) &nbsp; `₩ 11,000`
-- [itch.io](https://pixieditor.itch.io/pixieditor) &nbsp; `$ 10.00`
+- [Steam](https://store.steampowered.com/app/2299510/Pixel_Composer/) &nbsp; `₩ 16,000`
+- [itch.io](https://pixieditor.itch.io/pixieditor) &nbsp; `$ 15.00`
 
 > https://pixel-composer.com
 
@@ -59,12 +59,39 @@ Aseprite 같이 유명한 건 검색하면 하는 방법 나옴
 
 ![](./image/3.gif)
 
-여러면의 픽셀아트를 불러와 3D화 후 에디팅. 렌더링 할 수 있는 툴
+여러면의 픽셀아트를 불러와 3D화 후 에디팅, 렌더링 할 수 있는 툴
 
 > 드로잉, 3D 렌더링
 
 - [itch.io](https://pixel-salvaje.itch.io/pixzels) &nbsp; `$ 12.00`
 
+
+
+## <img src = "./icon/puck.jpg" width = "30px" height = "30px" />Pucks Pixelizer {#pucks-pixelizer}
+
+**PC** &nbsp; `Windows` `Mac` `Linux`
+
+![](./image/4.webm)
+
+3D 모델의 텍스처를 고전 게임 스타일의 텍스처로 변환하고 조정할 수 있는 툴
+
+> 3D 텍스처링
+
+- [Steam](https://store.steampowered.com/app/4469370/Pucks_Pixelizer) &nbsp; `₩ 21,500`
+- [itch.io](https://puszke.itch.io/pucks-pixelizer) &nbsp; `$ 19.99`
+
+
+## <img src = "./icon/blender.png" width = "30px" height = "30px" />Pixel Art Studio {#pixel-art-studio}
+
+**PC** &nbsp; `블렌더 애드온`
+
+![](./image/5.gif)
+
+블렌더에서 픽셀아트를 쉽게 할 수 있게 도와주는 블렌더 애드온
+
+> 3D 텍스처링
+
+- [itch.io](https://alfredbaudisch.itch.io/pixel-art-studio) &nbsp; `$ 19.90`
 
 <style>
   /* Prevent wrapping in all table columns by default */

@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 import footnote from 'markdown-it-footnote'
 import namuFootnote from './markdown-it-namu-footnote.js'
+import webm from './markdown-it-webm.js'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -21,6 +22,7 @@ export default defineConfig({
     config: (md) => {
       md.use(footnote)
       md.use(namuFootnote)
+      md.use(webm)
     }
   },
   themeConfig: {

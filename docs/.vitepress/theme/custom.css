@@ -2,6 +2,12 @@
   --vp-font-family-base: 'Noto Sans KR', sans-serif;
 }
 
+.vp-doc .markdown-video {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
 /* Make markdown bold text appear heavier */
 .vp-doc strong,
 .vp-doc b {

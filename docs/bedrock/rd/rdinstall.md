@@ -25,7 +25,7 @@
 
 1. [MB Loader](https://github.com/DominoKorean/Render-dragon-shader-list/blob/main/language/ko_kr/README.md#mb-loader)를 설치합니다.
 2. `Launch game`버튼을 누르면 현제 설치돼 있는 마인크래프트로 실행됩니다.
-3. [이곳](https://faizul726.github.io/blog/list-of-minecraft-v26-10-rd-shaders/)에서 원하는 셰이더팩을 골라 다운로드 받아 리소스 팩으로 불러온 후 적용합니다.
+3. [이곳](https://faizul726.github.io/blog/list-of-minecraft-v26-10-rd-shaders/)에서 원하는 셰이더 팩을 골라 다운로드 받아 리소스 팩으로 불러온 후 적용합니다.
 
 <br>
 
@@ -56,21 +56,21 @@ APK를 직접 수정하여 적용하는 수동 설치를 원한다면 다음 문
 5. MCLauncher 폴더에서  
 `imported_versions\Microsoft.MinecraftUWP "버전__패키지 이름".Appx\mods`  
 경로에 dll 모드 파일을 넣고 다시 MCLauncher.exe를 켜고 마인크래프트를 실행합니다.
-1. [이곳](https://faizul726.github.io/blog/list-of-minecraft-v26-10-rd-shaders/)에서 원하는 셰이더팩을 골라 다운로드 받아 리소스 팩으로 불러온 후 글로벌 리소스로 적용합니다.
+1. [이곳](https://faizul726.github.io/blog/list-of-minecraft-v26-10-rd-shaders/)에서 원하는 셰이더 팩을 골라 다운로드 받아 리소스 팩으로 불러온 후 글로벌 리소스로 적용합니다.
 
 #### LeviLauncher 사용
 1. 최신 버전의 [LeviLauncher](https://github.com/LiteLDev/LeviLauncher/releases)을 다운로드합니다.
 2. 왼쪽 다운로드 탭에서 원하는 마인크래프트 버전을 다운로드 합니다.
 3. [BetterRenderDragon](https://github.com/QYCottage/BetterRenderDragon/releases)모드 파일(.dll)을 다운로드합니다.
 4. 실행 탭에서 dll 모드 파일을 모드 폴더에 넣습니다.
-5. [이곳](https://faizul726.github.io/blog/list-of-minecraft-v26-10-rd-shaders/)에서 원하는 셰이더팩을 골라 다운로드 받아 리소스 팩으로 불러온 후 글로벌 리소스로 적용합니다.
+5. [이곳](https://faizul726.github.io/blog/list-of-minecraft-v26-10-rd-shaders/)에서 원하는 셰이더 팩을 골라 다운로드 받아 리소스 팩으로 불러온 후 글로벌 리소스로 적용합니다.
 
 #### wyvern 사용
 
 1. 최신 버전의 [wyvern](https://github.com/mcbegamerxx954/wyvern_releases/releases)을 다운로드합니다.
 2. wyvern을 설치합니다.
 3. 마인크래프트를 실행한 상태로 wyvern에서 Inject 버튼을 누릅니다.
-4. [이곳](https://faizul726.github.io/blog/list-of-minecraft-v26-10-rd-shaders/)에서 원하는 셰이더팩을 골라 다운로드 받아 리소스 팩으로 불러온 후 글로벌 리소스로 적용합니다.
+4. [이곳](https://faizul726.github.io/blog/list-of-minecraft-v26-10-rd-shaders/)에서 원하는 셰이더 팩을 골라 다운로드 받아 리소스 팩으로 불러온 후 글로벌 리소스로 적용합니다.
 
 
 <br>
@@ -101,7 +101,7 @@ C:\Program Files\WindowsApps\Microsoft.MinecraftUWP_1.21.9401.0_x64__8wekyb3d8bb
 
 ## 문제 해결
 
-> - #### **셰이더팩의 물, 하늘만 적용됩니다, 물, 하늘이 적용이 안됩니다.**  
+> - #### **셰이더 팩의 물, 하늘만 적용됩니다, 물, 하늘이 적용이 안됩니다.**  
 > 마인크래프트를 재시작하면 대부분 해결됩니다.
 
 > - #### **서버에 들어갔더니 셰이더가 작동하지 않습니다.**  
