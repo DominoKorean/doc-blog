@@ -26,7 +26,7 @@ Aseprite 같이 유명한 건 검색하면 하는 방법 나옴
 주로 파티클, 이펙트 제작, UI 에니메이팅에 씌임.  
 키프레임 에니메이션및 값에 스크립팅 지원.
 
-> 드로잉, 에니메이팅, 노드 컴포지팅, 3D 렌더링, 본 에니메이션, 스크립팅 지원, 에셋 포함, 3D 텍스처링
+> 드로잉, 에니메이팅, 노드 컴포지팅, VFX, 3D 렌더링, 본 에니메이션, 스크립팅 지원, 에셋 포함, 3D 텍스처링
 
 - [Github](https://github.com/Ttanasart-pt/Pixel-Composer) &nbsp; `오픈소스`
 - [Steam](https://store.steampowered.com/app/2299510/Pixel_Composer/) &nbsp; `₩ 16,000`
@@ -71,7 +71,7 @@ Aseprite 같이 유명한 건 검색하면 하는 방법 나옴
 
 **PC** &nbsp; `Windows` `Mac` `Linux`
 
-![](./image/4.webm)
+![repeat](./image/4.webm)
 
 3D 모델의 텍스처를 고전 게임 스타일의 텍스처로 변환하고 조정할 수 있는 툴
 
@@ -92,6 +92,24 @@ Aseprite 같이 유명한 건 검색하면 하는 방법 나옴
 > 3D 텍스처링
 
 - [itch.io](https://alfredbaudisch.itch.io/pixel-art-studio) &nbsp; `$ 19.90`
+
+
+## <img src = "./icon/fxels.png" width = "30px" height = "30px" />Fxel {#fxel}
+
+**PC** &nbsp; `웹`[* PC UI만 지원]
+
+![repeat](./image/6.mp4)
+
+픽셀아트 VFX를 조합하고 내보낼 수 있는 무료 툴
+
+> 노드 컴포지팅, VFX, 에셋 포함
+
+- [Fxel](https://takayustudio.jp/fxel) &nbsp; `출력물 퍼블릭 도메인`
+
+<br>
+<br>
+<br>
+<br>
 
 <style>
   /* Prevent wrapping in all table columns by default */

@@ -61,15 +61,6 @@ Resprite DA: **PC, 모바일** &nbsp; `Windows` `Mac` `Android`
 
 > https://resprite.fengeon.com
 
-## <img src = "./icon/edge3.png" width = "30px" height = "30px" />Edge3 {#edge3}
-
-**PC** &nbsp; `Windows`   
-
-> 드로잉, 에니메이팅
-
-- [Steam](https://store.steampowered.com/app/4593020/Edge3/) &nbsp; `₩ 21,000`
-
-> https://edge3.takabosoft.com
 
 
 ## <img src = "./icon/promotionng.jpg" width = "30px" height = "30px" />Pro Motion NG {#pro-motion-ng}
@@ -84,6 +75,28 @@ Resprite DA: **PC, 모바일** &nbsp; `Windows` `Mac` `Android`
 - [Steam](https://store.steampowered.com/app/671190/Pro_Motion_NG/) &nbsp; `₩ 27,000`
 
 > https://www.cosmigo.com
+
+
+
+## <img src = "./icon/edge3.png" width = "30px" height = "30px" />Edge3 {#edge3}
+
+**PC** &nbsp; `Windows`   
+
+> 드로잉, 에니메이팅, 한국어 공식 지원
+
+- [Steam](https://store.steampowered.com/app/4593020/Edge3/) &nbsp; `₩ 21,000`
+
+> https://edge3.takabosoft.com
+
+
+
+## <img src = "./icon/sqpaint.ico" width = "30px" height = "30px" />SqPaint {#sqpaint}
+
+**PC** &nbsp; `Windows`
+
+> 드로잉, 일본어만 지원
+
+> https://nezutako.com/works/tools/sq-paint
 
 
 
@@ -157,16 +170,6 @@ Resprite DA: **PC, 모바일** &nbsp; `Windows` `Mac` `Android`
 - [Apple App Store](https://apps.apple.com/us/app/pixilart/id1440580518) `무료`
 
 > https://www.pixilart.com
-
-
-
-## <img src = "./icon/sqpaint.ico" width = "30px" height = "30px" />SqPaint {#sqpaint}
-
-**PC** &nbsp; `Windows`
-
-> 드로잉, 일본어만 지원
-
-> https://nezutako.com/works/tools/sq-paint
 
 <br>
 <br>

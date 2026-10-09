@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 import footnote from 'markdown-it-footnote'
 import namuFootnote from './markdown-it-namu-footnote.js'
-import webm from './markdown-it-webm.js'
+import video from './markdown-it-video.js'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -22,7 +22,7 @@ export default defineConfig({
     config: (md) => {
       md.use(footnote)
       md.use(namuFootnote)
-      md.use(webm)
+      md.use(video)
     }
   },
   themeConfig: {
