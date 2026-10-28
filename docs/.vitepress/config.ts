@@ -154,6 +154,10 @@ export default defineConfig({
                 {
                   text: '픽셀아트 유틸리티',
                   link: '/art/pixelart_util'
+                },
+                {
+                text: 'Aseprite 무료 설치 방법',
+                link: '/art/ase_install'
                 }
               ]
             },
