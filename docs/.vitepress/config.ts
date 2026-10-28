@@ -28,130 +28,139 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: '문서로 이동', link: '/start' }
+      { text: '마인크래프트', link: '/start' },
+      { text: '아트 / 작업', link: '/art/start' }
     ],
 
 
     //사이드바
-    sidebar: [
-      {
-        text: '개발/제작',
-        collapsed: false,
-        items: [
-          {
-            text: '자바',
-            items: [
-              { 
-                text: 'json 구문으로 리소스 팩/데이터팩 설명 커스텀하기',
-                link: '/java/respackjson/respackjson'
-              },
-            ]
-          },
-          {
-            text: '베드락',
-            items: [
-              { 
-                text: '리소스 팩 개발자들을 위한 Block.json 설명', 
-                link: '/bedrock/blockjson',
-              },
-            ]
-          },
-          {
-            text: '기타',
-            items: [
-              {
-                text: '픽셀아트 프로그램',
-                link: 'both/pixelart_program/pixelart_program.md'
-              },
-              {
-                text: '픽셀아트 유틸리티',
-                link: 'both/pixelart_util/pixelart_util.md'
-              }
-            ]
-          },
-        ]
-      },
-      {
-        text: '기타 자료',
-        collapsed: false,
-        items: [
-          {
-            text: '자바',
-            items: [
-              {
-                text: '셰이더 추천 목록',
-                link: '/java/shader_rec/shader_rec'
-              },
-              {
-                text: '버전별 셰이더 팩 설치 필요 모드',
-                link: '/java/what_shader_mod/what_shader_mod'
-              },
-              {
-                text: '옵티파인 설치법',
-                link: '/java/install_optifine/install_optifine'
-              },
-              {
-                text: 'Mizuno\'s 16 Craft 리소스팩 다운로드 방법',
-                link: '/java/mizuno16/mizuno16download.md'
-              }
-            ]
-          },
-          {
-            text: '기타',
-            items: [
-               {
-                text: '팩, 모드, 프로그램 용어 정리',
-                link: 'both/packterms/packterms.md'
-              }
-            ]
-          },
-        ]
-      },
-      { 
-        text: '렌더드래곤 셰이더',
-        collapsed: false,
-        items: [
-          { 
-            text: '렌더드래곤 셰이더 설치법',
-            link: '/bedrock/rd/rdinstall',
-            items: [
-              { 
-                text: '안드로이드 수동 설치법',
-                link: '/bedrock/rd/androidrd'
-              },
-              { 
-                text: 'iOS 설치법',
-                link: '/bedrock/rd/ios'
-              },
-              {
-                text: '.material.bin 파일을 수동으로 교체하는법',
-                link: '/bedrock/rd/materialbin/materialbin'
-              }
-            ]
-          }
-        ]
-      },
-      {
-        text: '마인크래프트 PBR 텍스처 가이드(WIP)',
-        collapsed: true,
-        items: [
-          {
-            text: 'PBR 텍스처에 대해 알아보자',
-            link: '/pbr/start_pbr'
-          },
-          {
-            text: 'PBR 포맷',
-            items: [
-              {
-                text: 'Oldpbr / SEUS pbr',
-                link: '/pbr/oldpbr/oldpbr'
-              }
-            ]
-          }
-        ]
-      }
-    ],
+    sidebar: {
+      '/': [
+        {
+          text: '개발/제작',
+          collapsed: false,
+          items: [
+            {
+              text: '자바',
+              items: [
+                {
+                  text: 'json 구문으로 리소스 팩/데이터팩 설명 커스텀하기',
+                  link: '/java/respackjson/respackjson'
+                },
+              ]
+            },
+            {
+              text: '베드락',
+              items: [
+                {
+                  text: '리소스 팩 개발자들을 위한 Block.json 설명',
+                  link: '/bedrock/blockjson',
+                },
+              ]
+            }
+          ]
+        },
+        {
+          text: '기타 자료',
+          collapsed: false,
+          items: [
+            {
+              text: '자바',
+              items: [
+                {
+                  text: '셰이더 추천 목록',
+                  link: '/java/shader_rec/shader_rec'
+                },
+                {
+                  text: '버전별 셰이더 팩 설치 필요 모드',
+                  link: '/java/what_shader_mod/what_shader_mod'
+                },
+                {
+                  text: '옵티파인 설치법',
+                  link: '/java/install_optifine/install_optifine'
+                },
+                {
+                  text: 'Mizuno\'s 16 Craft 리소스팩 다운로드 방법',
+                  link: '/java/mizuno16/mizuno16download.md'
+                }
+              ]
+            },
+            {
+              text: '기타',
+              items: [
+                {
+                  text: '팩, 모드, 프로그램 용어 정리',
+                  link: 'both/packterms/packterms.md'
+                }
+              ]
+            },
+          ]
+        },
+        {
+          text: '렌더드래곤 셰이더',
+          collapsed: false,
+          items: [
+            {
+              text: '렌더드래곤 셰이더 설치법',
+              link: '/bedrock/rd/rdinstall',
+              items: [
+                {
+                  text: '안드로이드 수동 설치법',
+                  link: '/bedrock/rd/androidrd'
+                },
+                {
+                  text: 'iOS 설치법',
+                  link: '/bedrock/rd/ios'
+                },
+                {
+                  text: '.material.bin 파일을 수동으로 교체하는법',
+                  link: '/bedrock/rd/materialbin/materialbin'
+                }
+              ]
+            }
+          ]
+        },
+        {
+          text: '마인크래프트 PBR 텍스처 가이드(WIP)',
+          collapsed: true,
+          items: [
+            {
+              text: 'PBR 텍스처에 대해 알아보자',
+              link: '/pbr/start_pbr'
+            },
+            {
+              text: 'PBR 포맷',
+              items: [
+                {
+                  text: 'Oldpbr / SEUS pbr',
+                  link: '/pbr/oldpbr/oldpbr'
+                }
+              ]
+            }
+          ]
+        },
+      ],
+      '/art/': [
+        {
+          text: '픽셀아트',
+          items: [
+            {
+              text: '프로그램',
+              items: [
+                {
+                  text: '픽셀아트 프로그램',
+                  link: '/art/pixelart_program/pixelart_program'
+                },
+                {
+                  text: '픽셀아트 유틸리티',
+                  link: '/art/pixelart_util/pixelart_util'
+                }
+              ]
+            },
+          ]
+        },
+      ]
+    },
 
     //소셜링크
     socialLinks: [
