@@ -149,11 +149,11 @@ export default defineConfig({
               items: [
                 {
                   text: '픽셀아트 프로그램',
-                  link: '/art/pixelart_program/pixelart_program'
+                  link: '/art/pixelart_program'
                 },
                 {
                   text: '픽셀아트 유틸리티',
-                  link: '/art/pixelart_util/pixelart_util'
+                  link: '/art/pixelart_util'
                 }
               ]
             },
