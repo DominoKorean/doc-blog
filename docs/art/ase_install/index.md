@@ -1,3 +1,9 @@
+<script setup>
+import ImageLightbox from '../../.vitepress/theme/components/ImageLightbox.vue'
+</script>
+
+<ImageLightbox />
+
 # Aseprite 무료 설치 방법
 
 Aseprite는 유로 프로그램이지만 동시에 깃허브에 소스코드가 무료로 풀려있는 오픈소스 프로그램이다.
