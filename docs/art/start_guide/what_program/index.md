@@ -30,7 +30,7 @@ Q. 어떤 프로그램을 가장 많이 쓰나요?
   - 넓은 커뮤니티 덕에 있는 수많은 자료와 도구 및 협업 용이
   - 태그 기능을 통한 **원활한 셀 애니메이션 작업**
   - 게임 스프라이트 작업 기준 타일링 전용 도구, json 내보내기 등등 편리한 여러 지원
-  - [직접 패키징](/art/ase_install)시 무료로 사용 가능
+  - [직접 패키징](/art/ase_install/)시 무료로 사용 가능
 
 <br>
 
@@ -47,7 +47,7 @@ Q. 어떤 프로그램을 가장 많이 쓰나요?
 
 ### EDGE3
 
-> [다운로드](/art/pixelart_program/index.md/#edge3)
+> [다운로드](/art/pixelart_program/#edge3)
 
 - **장점: 완전히 현대적인 디자인 툴의 UI**  
   - 깨지거나 어색하게 움직이는 UI 없음
@@ -67,14 +67,14 @@ Q. 어떤 프로그램을 가장 많이 쓰나요?
 ## 폰, 태블릿에서 픽셀 아트를 하고 싶을 경우
 
 - **아이패드에서 취미로 작업**  
-\> [Pixquare](/art/pixelart_program/index.md/#pixquare)  
+\> [Pixquare](/art/pixelart_program/#pixquare)  
 필요한 요소를 갖추고 있어서 간결한 UI가 특징
 - **태블릿에서 여러 기능을 활용한 작업**
-\> [Resprite](/art/pixelart_program/index.md/#resprite)  
+\> [Resprite](/art/pixelart_program/#resprite)  
 비파괴 레이어, 클리핑 마스크, 유사 키프레임 애니메이션등 매우 다양한 기능 지원
     > PC 버전은 비추천
 - **애니메이션 없이 간단한 낙서 / 모바일로 사용**  
-\> [Ibis Paint](/art/start_guide/ibispaint_pixelart/index.md)
+\> [Ibis Paint](/art/start_guide/ibispaint_pixelart/)
   - 잘돼있는 모바일 UI
   - 가격 무료
   - 저사양에서도 잘 돌아감

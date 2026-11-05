@@ -149,15 +149,15 @@ export default defineConfig({
               items: [
                 {
                   text: '픽셀 아트 프로그램',
-                  link: '/art/pixelart_program'
+                  link: '/art/pixelart_program/'
                 },
                 {
                   text: '픽셀 아트 유틸리티',
-                  link: '/art/pixelart_util'
+                  link: '/art/pixelart_util/'
                 },
                 {
                 text: 'Aseprite 무료 설치 방법',
-                link: '/art/ase_install'
+                link: '/art/ase_install/'
                 }
               ]
             },
@@ -166,15 +166,15 @@ export default defineConfig({
               items: [
                 {
                   text: '픽셀 아트에서 쓸 앱 가이드',
-                  link: '/art/start_guide/what_program'
+                  link: '/art/start_guide/what_program/'
                 },
                 {
                   text: 'Ibis Paint에서 픽셀 아트 하는 법',
-                  link: '/art/start_guide/ibispaint_pixelart',
+                  link: '/art/start_guide/ibispaint_pixelart/',
                   items: [
                     {
                       text: 'Ibis Paint 디더링 브러시',
-                      link: '/art/start_guide/ibispaint_pixelart/brush'
+                      link: '/art/start_guide/ibispaint_pixelart/brush/'
                     }
                   ]
                 }
