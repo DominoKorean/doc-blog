@@ -1,5 +1,7 @@
 <script setup>
+import { onBeforeUnmount, onMounted, ref } from 'vue'
 import allBrushesZip from './brush_qr/ibis-paint-bayer-brushes.zip?url'
+import { downloadBrushImages, getDownloadMode } from './brush-downloads.js'
 
 const qrImages = import.meta.glob('./brush_qr/*.png', {
   eager: true,
@@ -17,14 +19,57 @@ const brushes = Object.entries(qrImages)
     return { step, coverage: step * 6.25, qr, fileName: path.split('/').pop(), pattern: patterns[`./preview/bayer-${step}.svg`] }
   })
   .sort((a, b) => a.step - b.step)
+
+const downloadMode = ref('zip')
+const isDownloading = ref(false)
+const requestedCount = ref(0)
+const downloadNotice = ref('')
+let downloadController
+
+onMounted(() => { downloadMode.value = getDownloadMode(navigator) })
+onBeforeUnmount(() => downloadController?.abort())
+
+async function downloadAllImages() {
+  if (isDownloading.value) return
+  isDownloading.value = true
+  requestedCount.value = 0
+  downloadNotice.value = ''
+  downloadController = new AbortController()
+  try {
+    const count = await downloadBrushImages(brushes, {
+      signal: downloadController.signal,
+      onProgress: count => { requestedCount.value = count },
+      requestDownload: ({ qr, fileName }) => {
+        const link = document.createElement('a')
+        link.href = qr
+        link.download = fileName
+        link.hidden = true
+        document.body.appendChild(link)
+        try { link.click() } finally { link.remove() }
+      }
+    })
+    if (!downloadController.signal.aborted) {
+      downloadNotice.value = `${count}개 이미지 다운로드를 요청했어요. 브라우저의 다운로드 목록에서 확인해 주세요.`
+    }
+  } catch {
+    downloadNotice.value = '다운로드를 계속할 수 없어요. 각 QR 아래의 다운로드 버튼으로 저장해 주세요.'
+  } finally {
+    isDownloading.value = false
+  }
+}
 </script>
 
 <template>
   <section class="bayer-gallery" aria-label="Bayer 디더링 그라데이션과 브러시 QR">
     <div class="bayer-toolbar">
-      <span class="bayer-toolbar-note">브러시 QR 원본 {{ brushes.length }}개</span>
-      <a class="bayer-download bayer-download-all" :href="allBrushesZip" download="ibis-paint-bayer-brushes.zip">모두 다운로드 <span aria-hidden="true">↓</span></a>
+      <span class="bayer-toolbar-note">원본 {{ brushes.length }}개 · {{ downloadMode === 'images' ? 'PNG 순차 저장' : 'ZIP 묶음' }}</span>
+      <button v-if="downloadMode === 'images'" class="bayer-download bayer-download-all" type="button" :disabled="isDownloading" @click="downloadAllImages">
+        {{ isDownloading ? `PNG 요청 중 (${requestedCount}/${brushes.length})` : '모두 다운로드' }} <span aria-hidden="true">↓</span>
+      </button>
+      <a v-else class="bayer-download bayer-download-all" :href="allBrushesZip" download="ibis-paint-bayer-brushes.zip">모두 다운로드 <span aria-hidden="true">↓</span></a>
     </div>
+    <p v-if="downloadMode === 'images'" class="bayer-download-note">PNG를 01번부터 순서대로 내려받아요. 브라우저에서 여러 파일 다운로드를 허용해 주세요. 저장되지 않은 파일은 각 QR 아래에서 개별 다운로드할 수 있어요.</p>
+    <p v-if="downloadNotice" class="bayer-download-note" role="status">{{ downloadNotice }}</p>
     <div class="bayer-heading" aria-hidden="true">
       <span>밀도 <span class="bayer-arrow">↓</span></span>
       <span>IBIS PAINT <span class="bayer-heading-tag">BRUSH QR</span></span>
@@ -76,6 +121,7 @@ const brushes = Object.entries(qrImages)
   margin-bottom: 24px;
 }
 .bayer-toolbar-note { color: var(--vp-c-text-2); font-size: 12px; }
+.bayer-download-note { margin: -8px 0 24px; color: var(--vp-c-text-2); font-size: 12px; line-height: 1.7; }
 .bayer-download {
   display: inline-flex;
   align-items: center;
@@ -91,9 +137,12 @@ const brushes = Object.entries(qrImages)
   font-weight: 500;
   line-height: 1.5;
   text-decoration: none;
+  font-family: inherit;
+  cursor: pointer;
   transition: border-color .18s ease, background-color .18s ease;
 }
 .bayer-download:hover { border-color: var(--vp-c-brand-1); background: var(--vp-c-brand-soft); color: var(--vp-c-brand-1); }
+.bayer-download:disabled { opacity: .6; cursor: progress; }
 .bayer-download:focus-visible { outline: 2px solid var(--vp-c-brand-1); outline-offset: 3px; }
 .bayer-download-all { margin-left: auto; }
 .bayer-heading,
