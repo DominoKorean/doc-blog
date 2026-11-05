@@ -1,7 +1,7 @@
-# 픽셀아트 프로그램 목록
+# 픽셀 아트 프로그램 목록
 
 ::: info :bulb: **오픈소스**에 대해서
-다운로드 링크 옆에 `오픈소스`로 표시돼 있는 건 소스코드는 다 무료로 열려있는데 패키징 배포가 무료로 거기에 안돼있다는 말임  
+다운로드 링크 옆에 `오픈소스`로 표시돼 있는 건 소스코드는 다 무료로 열려있는데 패키징 배포가 무료로 거기에 안 돼있다는 말임  
 Aseprite 같이 유명한 건 검색하면 하는 방법 나옴
 :::
 
@@ -17,7 +17,7 @@ Aseprite 같이 유명한 건 검색하면 하는 방법 나옴
 
 > **현업에서 많이 실사용됨**  
 
-> 드로잉, 에니메이팅, 플러그인 지원, 한국어 유저번역 지원  
+> 드로잉, 애니메이팅, 플러그인 지원, 한국어 유저 번역 지원  
 > 타일셋, 9-slice, JSON 내보내기 관련 세부 요소 지원
 
 - [Github](https://github.com/aseprite/aseprite) &nbsp; `오픈소스`
@@ -36,7 +36,7 @@ Aseprite 같이 유명한 건 검색하면 하는 방법 나옴
 
 > **많이 실사용됨**  
 
-> 드로잉, 에니메이팅, 한국어 기계번역 지원  
+> 드로잉, 애니메이팅, 한국어 기계번역 지원  
 > aseprite 애니메이션 태그 지원
 
 - [Apple App Store](https://apps.apple.com/us/app/pixquare-pixel-art-studio/id1659428179)  
@@ -45,7 +45,7 @@ Aseprite 같이 유명한 건 검색하면 하는 방법 나옴
 > https://www.pixquare.art
 
 아이패드에서 사용 가능한 가장 괜찮은 프로그램. 1인 인디 개발이기 때문에 구형 기기에서는 일부 오류가 날 수 있음.  
-기능이 비교적 적지만 UI가 깔끔해 쓰기 좋은것이 특징.
+기능이 비교적 적지만 UI가 깔끔해 쓰기 좋은 것이 특징.
 
 
 ## <img src = "./icon/resprite.webp" width = "30px" height = "30px" />Resptire {#resprite}
@@ -53,24 +53,24 @@ Aseprite 같이 유명한 건 검색하면 하는 방법 나옴
 Resprite: **PC, 모바일** &nbsp; `Mac` `iOS` `iPadOS`   
 Resprite DA: **PC, 모바일** &nbsp; `Windows` `Mac` `Android`
 
-> **Android 에서 많이 실사용됨**  
+> **Android에서 많이 실사용됨**  
 
-> 드로잉, 에니메이팅, 한국어 기계번역 지원  
+> 드로잉, 애니메이팅, 한국어 기계번역 지원  
 > aseprite 애니메이션 태그 지원, 타일셋 관련 지원
 
 - Resprite
   - [Apple App Store](https://apps.apple.com/us/app/resprite-pixel-art-studio/id1662335989)  
-    `한달 ₩ 3,300` `12개월 ₩ 19,000` `영구구매 ₩ 33,000`
+    `한 달 ₩ 3,300` `12개월 ₩ 19,000` `영구 구매 ₩ 33,000`
 - Resprite DA
   - [Steam](https://store.steampowered.com/app/3146020/Resprite/) `&nbsp; ₩ 21,500`
   - [Google Play](https://play.google.com/store/apps/details?id=com.fengeon.resprite_desktop)  
-  `한달 ₩ 3,300` `12개월 ₩ 16,000` `영구구매 ₩ 33,000`
+  `한 달 ₩ 3,300` `12개월 ₩ 16,000` `영구 구매 ₩ 33,000`
 
 > https://resprite.fengeon.com
 
-아이패드에서 사용 가능한 가장 괜찮은 프로그램. 매우 다양한 기능과 중국 1인 개발자가 개발하는 덕에 오류 없는 CJK지원이 장점.  
-타일셋관련 지원이 잘돼있어 태블릿에서 게임 스프라이트 작업용 앱을 찾고 있다면 추천.  
-태블릿과 PC 사이를 연계해서 작업하고 싶은게 아니라면 비효율적인 UI배치, 멋대로인 단축키로 PC에서 사용하는것은 비추천.
+아이패드에서 사용 가능한 가장 괜찮은 프로그램. 매우 다양한 기능과 중국 1인 개발자가 개발하는 덕에 오류 없는 CJK 지원이 장점.  
+타일셋 관련 지원이 잘돼있어 태블릿에서 게임 스프라이트 작업용 앱을 찾고 있다면 추천.  
+태블릿과 PC 사이를 연계해서 작업하고 싶은 게 아니라면 비효율적인 UI 배치, 멋대로인 단축키로 PC에서 사용하는 것은 비추천.
 
 
 ## <img src = "./icon/promotionng.jpg" width = "30px" height = "30px" />Pro Motion NG {#pro-motion-ng}
@@ -79,7 +79,7 @@ Resprite DA: **PC, 모바일** &nbsp; `Windows` `Mac` `Android`
 
 > **현업에서 많이 실사용됨**  
 
-> 드로잉, 에니메이팅
+> 드로잉, 애니메이팅
 
 - [공식 홈페이지 라이선스 키 구매](https://www.cosmigo.com/pixel_animation_software/buy) &nbsp; `$ 19.00`
 - [Steam](https://store.steampowered.com/app/671190/Pro_Motion_NG/) &nbsp; `₩ 27,000`
@@ -92,17 +92,17 @@ Resprite DA: **PC, 모바일** &nbsp; `Windows` `Mac` `Android`
 
 **PC** &nbsp; `Windows`   
 
-> 드로잉, 에니메이팅, 한국어 공식 지원  
-> aseprite 애니메이션 태그 지원, json 내보내기및 타일셋 기능 일부 지원
+> 드로잉, 애니메이팅, 한국어 공식 지원  
+> aseprite 애니메이션 태그 지원, json 내보내기 및 타일셋 기능 일부 지원
 
 - [Steam](https://store.steampowered.com/app/4593020/Edge3/) &nbsp; `₩ 21,000`
 
 > https://edge3.takabosoft.com
 
-개인 인디/소규모 스튜디오및 서양쪽에서 제작되는 프로그램인것과 달리 일본 소규모 회사에서 작업하기 때문에
-깨지지 않고 제대로 움직이는 UI및 여러 요소들, 매끄러운 기능등 사용성이 현대적인 디자인프로그램에 가까운것이 특징.
+개인 인디/소규모 스튜디오 및 서양 쪽에서 제작되는 프로그램인 것과 달리 일본 소규모 회사에서 작업하기 때문에
+깨지지 않고 제대로 움직이는 UI및 여러 요소들, 매끄러운 기능 등 사용성이 현대적인 디자인 프로그램에 가까운 것이 특징.
 Aseprite의 깨지는 화면, 불편한 UI가 싫다면 추천.
-아직 얼리억세스이기 때문에 문서화가 전부 돼있지 않고 기능 추가 건의 시 피드백이 잘 들어감.
+아직 얼리 액세스이기 때문에 문서화가 전부돼있지 않고 기능 추가 건의 시 피드백이 잘 들어감.
 
 
 
@@ -110,7 +110,7 @@ Aseprite의 깨지는 화면, 불편한 UI가 싫다면 추천.
 
 **PC** &nbsp; `Web` `Windows` `Mac` `Linux`  
 
-> 드로잉, 에니메이팅, 플러그인 지원, 한국어 유저번역 지원  
+> 드로잉, 애니메이팅, 플러그인 지원, 한국어 유저 번역 지원  
 
 - [공식 홈페이지](https://libresprite.github.io/#!/downloads) &nbsp; `무료`
 - [웹 버전](https://libresprite.github.io/#!/downloads)
@@ -118,10 +118,10 @@ Aseprite의 깨지는 화면, 불편한 UI가 싫다면 추천.
 
 > https://libresprite.github.io
 
-Aseprite가 아직 GPLv2 라이선스일때 포크된 무료 프로그램.  
-Aseprite와 달리 레이어 그룹 없음, 타일맵 레이어 없음, json 내보내기 일부 미지원, 플러그인 미호환.
-대신 웹버전을 지원함.
-전문적인 장기 작업외에 간단한 작업만 무료 프로그램으로 하고 싶다면 Aseptrite를 대신해서 추천. 
+Aseprite가 아직 GPLv2 라이선스일 때 포크 된 무료 프로그램.  
+Aseprite와 달리 레이어 그룹 없음, 타일 맵 레이어 없음, json 내보내기 일부 미지원, 플러그인 미호환.
+대신 웹 버전을 지원함.
+전문적인 장기 작업 외에 간단한 작업만 무료 프로그램으로 하고 싶다면 Aseptrite를 대신해서 추천. 
 
 
 
@@ -151,7 +151,7 @@ Aseprite와 달리 레이어 그룹 없음, 타일맵 레이어 없음, json 내
 
 **PC, 모바일** &nbsp; `Windows` `Mac` `Android` `iOS` `iPadOS`
 
-> 드로잉, 에니메이팅, 한국어 일부 지원
+> 드로잉, 애니메이팅, 한국어 일부 지원
 
 - [Steam](https://store.steampowered.com/app/1204050/Pixel_Studio__pixel_art_editor/) &nbsp; `무료`
 - [Microsoft Store](https://apps.microsoft.com/detail/9p7xs7vh1r3j?hl=en-US&gl=US) &nbsp; `무료`
@@ -169,7 +169,7 @@ Aseprite와 달리 레이어 그룹 없음, 타일맵 레이어 없음, json 내
 
 **PC** &nbsp; `Windows` `Linux` `Mac`
 
-> 드로잉, 에니메이팅, 노드 컴포지팅, 벡터 드로잉
+> 드로잉, 애니메이팅, 노드 컴포지팅, 벡터 드로잉
 
 - [공식 홈페이지](https://pixieditor.net/download) &nbsp; `무료`
 - [Github](https://github.com/PixiEditor/PixiEditor)
@@ -184,7 +184,7 @@ Aseprite와 달리 레이어 그룹 없음, 타일맵 레이어 없음, json 내
 
 **PC** &nbsp; `Web` `Windows` `Linux` `Mac`
 
-> 드로잉, 에니메이팅, 3D 렌더링,  한국어 유저번역 지원
+> 드로잉, 애니메이팅, 3D 렌더링,  한국어 유저 번역 지원
 
 - [Github](https://github.com/Orama-Interactive/Pixelorama/releases) &nbsp; `무료`
 - [Steam](https://store.steampowered.com/app/2779170/Pixelorama/) &nbsp; `₩ 11,000`
@@ -195,11 +195,11 @@ Aseprite와 달리 레이어 그룹 없음, 타일맵 레이어 없음, json 내
 
 
 
-## <img src = "./icon/blockbench.png" width = "30px" height = "30px" />Blockbench[* 모델링 툴이지만 픽셀아트 워크스페이스를 지원함]  {#blockbench}
+## <img src = "./icon/blockbench.png" width = "30px" height = "30px" />Blockbench[* 모델링 툴이지만 픽셀 아트 워크스페이스를 지원함]  {#blockbench}
 
 **PC** &nbsp; `Web`[* 모바일 UI지원 ] `Windows` `Linux` `Mac`
 
-> 드로잉, 한국어 유저번역 지원
+> 드로잉, 한국어 유저 번역 지원
 > 실시간 협업 지원
 
 - [Blockbech](https://www.blockbench.net/downloads) &nbsp; `무료`
@@ -213,7 +213,7 @@ Aseprite와 달리 레이어 그룹 없음, 타일맵 레이어 없음, json 내
 
 **PC** &nbsp; `Web`
 
-> 드로잉, 에니메이팅
+> 드로잉, 애니메이팅
 
 - [itch.io](https://marcel0ll.itch.io/novaboard) `무료`
 
@@ -228,12 +228,12 @@ Aseprite와 달리 레이어 그룹 없음, 타일맵 레이어 없음, json 내
 <br>
 <br>
 
-# 픽셀아트에 사용이 가능한 프로그램 목록
+# 픽셀 아트에 사용이 가능한 프로그램 목록
 
-::: info :bulb: 픽셀아트가 가능한 프로그램 목록
-픽셀아트 전용 프로그램은 아니지만 실제로 픽셀아트에 사용돼는 프로그램 목록
+::: info :bulb: 픽셀 아트가 가능한 프로그램 목록
+픽셀 아트 전용 프로그램은 아니지만 실제로 픽셀 아트에 사용되는 프로그램 목록
 
-"현업에서 많이 사용됨"은 픽셀아트 기준
+"현업에서 많이 사용됨"은 픽셀 아트 기준
 :::
 
 ## <img src = "./icon/photoshop.png" width = "30px" height = "30px" />Adobe Photohop {#photoshop}
@@ -242,12 +242,12 @@ Aseprite와 달리 레이어 그룹 없음, 타일맵 레이어 없음, json 내
 
 > **현업에서 많이 실사용됨**
 
-> 드로잉, 에니메이팅, 플러그인 지원, 한국어 지원
+> 드로잉, 애니메이팅, 플러그인 지원, 한국어 지원
 
 > https://www.adobe.com/kr/products/photoshop.html
 
 가장 많이 업계에서 사용되고 사용됐던 툴.  
-픽셀아트만 보고 구매하는것은 가격 때문에 비추천. 특히나 애니메이팅 툴 구현에는 한계가 있음.
+픽셀 아트만 보고 구매하는 것은 가격 때문에 비추천. 특히나 애니메이팅 툴 구현에는 한계가 있음.
 
 
 
@@ -255,7 +255,7 @@ Aseprite와 달리 레이어 그룹 없음, 타일맵 레이어 없음, json 내
 
 **PC, 모바일** &nbsp; `Windows` `Mac` `Linux` `Android` `iOS` `iPadOS`
 
-> 드로잉, 에니메이팅, 플러그인 지원, 한국어 유저번역 지원
+> 드로잉, 애니메이팅, 플러그인 지원, 한국어 유저 번역 지원
 
 - [공식 홈페이지](https://krita.org/ko/download/) &nbsp; `무료`
 - [Github](https://github.com/KDE/krita) &nbsp; `오픈소스`
@@ -267,7 +267,7 @@ Aseprite와 달리 레이어 그룹 없음, 타일맵 레이어 없음, json 내
 > https://krita.org
 
 플러그인 넓은 방면으로 지원, 공식적으로 애니메이팅 지원, 실시간 타일링 지원 덕분에
-픽셀아트 전용 프로그램이 아님/여러 플랫폼 지원/무료 프로그램 중에서 가장 쓸만함 
+픽셀 아트 전용 프로그램이 아님/여러 플랫폼 지원/무료 프로그램 중에서 가장 쓸만함 
 
 
 
@@ -275,7 +275,7 @@ Aseprite와 달리 레이어 그룹 없음, 타일맵 레이어 없음, json 내
 
 **PC, 모바일** &nbsp; `Windows` `Mac` `Android` `iOS` `iPadOS`
 
-> 드로잉, 에니메이팅, 플러그인 지원, 한국어 지원
+> 드로잉, 애니메이팅, 플러그인 지원, 한국어 지원
 
 > https://www.clipstudio.net
 
@@ -305,7 +305,7 @@ Aseprite와 달리 레이어 그룹 없음, 타일맵 레이어 없음, json 내
 
 > https://procreate.com
 
-픽셀아트 드로잉이 가능하다 정도에만 의의를 두는게 좋음.
+픽셀 아트 드로잉이 가능하다 정도에만 의의를 두는 게 좋음.
 
 
 
@@ -327,8 +327,8 @@ Aseprite와 달리 레이어 그룹 없음, 타일맵 레이어 없음, json 내
 
 > https://ibispaint.com
 
-픽셀아트 드로잉이 가능하다 정도에만 의의를 두는게 좋음.
-만약 애니메이션, 타일링같은 복잡한걸 안하고 완전히 휴대폰 화면, 또는 기기가 조금 저사양이라면 매우 추천.
+픽셀 아트 드로잉이 가능하다 정도에만 의의를 두는 게 좋음.
+만약 애니메이션, 타일랑 같은 복잡한 걸 안 하고 완전히 휴대폰 화면, 또는 기기가 조금 저사양이라면 매우 추천.
 
 <style>
   /* Prevent wrapping in all table columns by default */

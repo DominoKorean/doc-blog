@@ -2,6 +2,14 @@
   --vp-font-family-base: 'Noto Sans KR', sans-serif;
 }
 
+/* Let the right outline use the outer page gutter on wide screens. */
+@media (min-width: 1440px) {
+  .VPDoc .aside:not(.left-aside) .aside-container,
+  .VPDoc .aside:not(.left-aside) .aside-curtain {
+    width: calc(224px + (100vw - var(--vp-layout-max-width)) / 2);
+  }
+}
+
 .vp-doc .markdown-video {
   max-width: 100%;
   height: auto;

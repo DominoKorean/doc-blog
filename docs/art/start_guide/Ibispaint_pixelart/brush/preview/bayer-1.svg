@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="64" viewBox="0 0 16 8" shape-rendering="crispEdges" role="img" aria-labelledby="title">
+  <title id="title">4×4 Bayer 1/16 · 채움 6.25%</title>
+  <path fill="#fff" d="M0 0h16v8H0z"/>
+  <path fill="#222" d="M0 0h1v1h-1zM4 0h1v1h-1zM8 0h1v1h-1zM12 0h1v1h-1zM0 4h1v1h-1zM4 4h1v1h-1zM8 4h1v1h-1zM12 4h1v1h-1z"/>
+</svg>

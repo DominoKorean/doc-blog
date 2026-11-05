@@ -142,17 +142,17 @@ export default defineConfig({
       ],
       '/art/': [
         {
-          text: '픽셀아트',
+          text: '픽셀 아트',
           items: [
             {
               text: '프로그램',
               items: [
                 {
-                  text: '픽셀아트 프로그램',
+                  text: '픽셀 아트 프로그램',
                   link: '/art/pixelart_program'
                 },
                 {
-                  text: '픽셀아트 유틸리티',
+                  text: '픽셀 아트 유틸리티',
                   link: '/art/pixelart_util'
                 },
                 {
@@ -161,6 +161,25 @@ export default defineConfig({
                 }
               ]
             },
+            {
+              text: '픽셀 아트 시작하기',
+              items: [
+                {
+                  text: '픽셀 아트에서 쓸 앱 가이드',
+                  link: '/art/start_guide/what_program'
+                },
+                {
+                  text: 'Ibis Paint에서 픽셀 아트 하는 법',
+                  link: '/art/start_guide/ibispaint_pixelart',
+                  items: [
+                    {
+                      text: 'Ibis Paint 디더링 브러시',
+                      link: '/art/start_guide/ibispaint_pixelart/brush'
+                    }
+                  ]
+                }
+              ]
+            }
           ]
         },
       ]

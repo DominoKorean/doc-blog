@@ -1,6 +1,7 @@
 // https://vitepress.dev/guide/custom-theme
 import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
+import ImageLightbox from './components/ImageLightbox.vue'
 import './style.css'
 import './custom.css'
 
@@ -268,6 +269,8 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
+    app.component('ImageLightbox', ImageLightbox)
+
     if (!isClient) {
       return
     }
