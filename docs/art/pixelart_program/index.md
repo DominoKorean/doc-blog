@@ -108,7 +108,7 @@ Aseprite의 깨지는 화면, 불편한 UI가 싫다면 추천.
 
 ## <img src = "./icon/libresprite.png" width = "30px" height = "30px" />LibreSprite {#libresprite}
 
-**PC** &nbsp; `Web` `Windows` `Mac` `Linux`  
+**PC** &nbsp; `Web` `Android` `Windows` `Mac` `Linux`  
 
 > 드로잉, 애니메이팅, 플러그인 지원, 한국어 유저 번역 지원  
 
