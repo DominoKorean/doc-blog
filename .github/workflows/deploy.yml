@@ -60,6 +60,8 @@ jobs:
               raise SystemExit("No URLs found in sitemap.xml")
           (dist / "sitemap.txt").write_text("\n".join(urls) + "\n", encoding="utf-8")
           PY
+      - name: Copy sitemap under a new filename
+        run: cp docs/.vitepress/dist/sitemap.xml docs/.vitepress/dist/sitemap-doc-blog.xml
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
