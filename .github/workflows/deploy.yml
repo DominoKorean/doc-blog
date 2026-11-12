@@ -46,6 +46,20 @@ jobs:
         run: npm ci # 또는 pnpm install / yarn install / bun install
       - name: Build with VitePress
         run: npm run docs:build # 또는 pnpm docs:build / yarn docs:build / bun run docs:build
+      - name: Generate text sitemap
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+
+          dist = Path("docs/.vitepress/dist")
+          namespace = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+          sitemap = ET.parse(dist / "sitemap.xml")
+          urls = [node.text.strip() for node in sitemap.findall("s:url/s:loc", namespace)]
+          if not urls:
+              raise SystemExit("No URLs found in sitemap.xml")
+          (dist / "sitemap.txt").write_text("\n".join(urls) + "\n", encoding="utf-8")
+          PY
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
