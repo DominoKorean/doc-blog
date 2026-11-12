@@ -14,7 +14,7 @@ export default defineConfig({
 */
   lastUpdated: true,
   sitemap: {
-    hostname: 'https://dominokorean.github.io/doc-blog'
+    hostname: 'https://dominokorean.github.io/doc-blog/'
   },
   title: '도미노한국인 문서 블로그',
   description: '문서를 위한 블로그',
