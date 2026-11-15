@@ -148,16 +148,20 @@ export default defineConfig({
               text: '프로그램',
               items: [
                 {
-                  text: '픽셀 아트 프로그램',
+                  text: '픽셀 아트 프로그램 목록',
                   link: '/art/pixelart_program/'
                 },
                 {
-                  text: '픽셀 아트 유틸리티',
+                  text: '픽셀 아트 유틸리티 목록',
                   link: '/art/pixelart_util/'
                 },
                 {
                 text: 'Aseprite 무료 설치 방법',
                 link: '/art/ase_install/'
+                },
+                {
+                text: 'SqPaint 한국어 패치 사용법',
+                link: '/art/sqpaint_ko/'
                 }
               ]
             },
