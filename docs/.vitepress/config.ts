@@ -156,12 +156,17 @@ export default defineConfig({
                   link: '/art/pixelart_util/'
                 },
                 {
-                text: 'Aseprite 무료 설치 방법',
-                link: '/art/ase_install/'
-                },
-                {
-                text: 'SqPaint 한국어 패치 사용법',
-                link: '/art/sqpaint_ko/'
+                  text: '설치 가이드',
+                  items: [
+                    {
+                    text: 'Aseprite 무료 설치 방법',
+                    link: '/art/ase_install/'
+                    },
+                    {
+                    text: 'SqPaint 한국어 패치 사용법',
+                    link: '/art/sqpaint_ko/'
+                    }
+                  ]
                 }
               ]
             },
